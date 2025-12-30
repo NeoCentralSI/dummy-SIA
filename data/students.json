@@ -1,0 +1,388 @@
+{
+  "students": [
+    {
+      "nim": "202101001",
+      "name": "Alya Prameswari",
+      "sksCompleted": 112,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": false,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF4010",
+          "name": "Sistem Terdistribusi",
+          "credits": 3,
+          "class": "A",
+          "lecturer": "Dr. Raka Himawan",
+          "schedule": [
+            { "day": "Senin", "time": "09:00-10:40", "room": "D201" }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF4022",
+          "name": "Keamanan Informasi",
+          "credits": 3,
+          "class": "B",
+          "lecturer": "Ir. Indra Saputra",
+          "schedule": [
+            { "day": "Selasa", "time": "13:00-14:40", "room": "C305" }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF4035",
+          "name": "Manajemen Proyek TI",
+          "credits": 2,
+          "class": "A",
+          "lecturer": "Laras Widyastuti, M.Kom",
+          "schedule": [
+            { "day": "Kamis", "time": "08:00-09:40", "room": "B102" }
+          ],
+          "status": "ongoing"
+        }
+      ]
+    },
+    {
+      "nim": "202101014",
+      "name": "Bagas Wiratama",
+      "sksCompleted": 89,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": true,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "currentSemester": 6,
+      "currentSemesterCourses": [
+        {
+          "code": "IF3015",
+          "name": "Kecerdasan Buatan",
+          "credits": 3,
+          "class": "C",
+          "lecturer": "Prof. Ratna Dewi",
+          "schedule": [
+            { "day": "Senin", "time": "10:50-12:30", "room": "D103" }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF3021",
+          "name": "Rekayasa Perangkat Lunak Lanjut",
+          "credits": 3,
+          "class": "A",
+          "lecturer": "Ardi Nugroho, M.Kom",
+          "schedule": [
+            { "day": "Rabu", "time": "13:00-14:40", "room": "Lab RPL" }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF3030",
+          "name": "Pembelajaran Mesin",
+          "credits": 3,
+          "class": "B",
+          "lecturer": "Dr. Dita Sari",
+          "schedule": [
+            { "day": "Kamis", "time": "10:50-12:30", "room": "C204" }
+          ],
+          "status": "ongoing"
+        }
+      ]
+    },
+    {
+      "nim": "2211522018",
+      "name": "Nabil Rizki Navisa",
+      "sksCompleted": 118,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "A",
+          "lecturer": "Dr. Galuh Pradipta",
+          "schedule": [
+            { "day": "Selasa", "time": "08:00-10:40", "room": "Lab Riset" }
+          ],
+          "status": "proposal"
+        },
+        {
+          "code": "IF4011",
+          "name": "Sistem Informasi Enterprise",
+          "credits": 3,
+          "class": "A",
+          "lecturer": "Dr. Ahmad Kadep",
+          "schedule": [
+            { "day": "Senin", "time": "13:00-14:40", "room": "D102" }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF4015",
+          "name": "Pengujian Perangkat Lunak",
+          "credits": 3,
+          "class": "C",
+          "lecturer": "Diana Penguji, M.Sc",
+          "schedule": [
+            { "day": "Rabu", "time": "08:00-09:40", "room": "Lab QA" }
+          ],
+          "status": "ongoing"
+        }
+      ]
+    },
+    {
+      "nim": "2211523034",
+      "name": "Muhammad Fariz",
+      "sksCompleted": 122,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": false,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "B",
+          "lecturer": "Dr. Galuh Pradipta",
+          "schedule": [
+            { "day": "Rabu", "time": "10:50-13:30", "room": "Lab Riset" }
+          ],
+          "status": "proposal"
+        },
+        {
+          "code": "IF4012",
+          "name": "Manajemen Proyek TI",
+          "credits": 2,
+          "class": "A",
+          "lecturer": "Laras Widyastuti, M.Kom",
+          "schedule": [
+            { "day": "Kamis", "time": "08:00-09:40", "room": "B102" }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF4022",
+          "name": "Keamanan Informasi",
+          "credits": 3,
+          "class": "B",
+          "lecturer": "Ir. Indra Saputra",
+          "schedule": [
+            { "day": "Selasa", "time": "13:00-14:40", "room": "C305" }
+          ],
+          "status": "ongoing"
+        }
+      ]
+    },
+    {
+      "nim": "202001111",
+      "name": "Chandra Mahardika",
+      "sksCompleted": 126,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 8,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "A",
+          "lecturer": "Dr. Galuh Pradipta",
+          "schedule": [
+            { "day": "Selasa", "time": "08:00-10:40", "room": "Lab Riset" }
+          ],
+          "status": "proposal"
+        },
+        {
+          "code": "IF4023",
+          "name": "Etika Profesional TI",
+          "credits": 2,
+          "class": "A",
+          "lecturer": "Yusuf Rahman, M.T.",
+          "schedule": [
+            { "day": "Jumat", "time": "09:00-10:40", "room": "A204" }
+          ],
+          "status": "ongoing"
+        }
+      ]
+    },
+    {
+      "nim": "2211523001",
+      "name": "Siti Rahmawati",
+      "sksCompleted": 95,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "currentSemester": 5,
+      "currentSemesterCourses": [
+        {
+          "code": "IF2011",
+          "name": "Struktur Data",
+          "credits": 3,
+          "class": "A",
+          "lecturer": "Dr. Budi Santoso",
+          "schedule": [
+            { "day": "Senin", "time": "10:00-11:40", "room": "C201" }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF2015",
+          "name": "Basis Data Lanjut",
+          "credits": 3,
+          "class": "B",
+          "lecturer": "Dewi Kurnia, M.Kom",
+          "schedule": [
+            { "day": "Rabu", "time": "13:00-14:40", "room": "Lab DB" }
+          ],
+          "status": "ongoing"
+        }
+      ]
+    },
+    {
+      "nim": "2211523002",
+      "name": "Andi Pratama",
+      "sksCompleted": 94,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "currentSemester": 5,
+      "currentSemesterCourses": [
+        {
+          "code": "IF2013",
+          "name": "Pemrograman Berorientasi Objek",
+          "credits": 3,
+          "class": "A",
+          "lecturer": "Ir. Raka Himawan",
+          "schedule": [
+            { "day": "Selasa", "time": "09:00-10:40", "room": "B203" }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF2018",
+          "name": "Jaringan Komputer",
+          "credits": 3,
+          "class": "B",
+          "lecturer": "Laras Widyastuti, M.Kom",
+          "schedule": [
+            { "day": "Kamis", "time": "13:00-14:40", "room": "C305" }
+          ],
+          "status": "ongoing"
+        }
+      ]
+    },
+    {
+      "nim": "2211523003",
+      "name": "Laila Khairunnisa",
+      "sksCompleted": 92,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "currentSemester": 5,
+      "currentSemesterCourses": [
+        {
+          "code": "IF2020",
+          "name": "Interaksi Manusia dan Komputer",
+          "credits": 3,
+          "class": "A",
+          "lecturer": "Dita Sari, Ph.D",
+          "schedule": [
+            { "day": "Rabu", "time": "10:50-12:30", "room": "D103" }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF2022",
+          "name": "Pemrograman Web",
+          "credits": 3,
+          "class": "B",
+          "lecturer": "Yusuf Rahman, M.T.",
+          "schedule": [
+            { "day": "Jumat", "time": "13:00-14:40", "room": "Lab Web" }
+          ],
+          "status": "ongoing"
+        }
+      ]
+    },
+    {
+      "nim": "2211523004",
+      "name": "Rafi Nugraha",
+      "sksCompleted": 96,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "currentSemester": 5,
+      "currentSemesterCourses": [
+        {
+          "code": "IF2025",
+          "name": "Sistem Operasi",
+          "credits": 3,
+          "class": "C",
+          "lecturer": "Prof. Ratna Dewi",
+          "schedule": [
+            { "day": "Selasa", "time": "13:00-14:40", "room": "A204" }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF2028",
+          "name": "Algoritma dan Kompleksitas",
+          "credits": 3,
+          "class": "A",
+          "lecturer": "Ardi Nugroho, M.Kom",
+          "schedule": [
+            { "day": "Kamis", "time": "08:00-09:40", "room": "B102" }
+          ],
+          "status": "ongoing"
+        }
+      ]
+    },
+    {
+      "nim": "2211523005",
+      "name": "Maria Gabriella",
+      "sksCompleted": 100,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "currentSemester": 5,
+      "currentSemesterCourses": [
+        {
+          "code": "IF2030",
+          "name": "Analisis dan Perancangan Sistem",
+          "credits": 3,
+          "class": "B",
+          "lecturer": "Dr. Candra Pembimbing",
+          "schedule": [
+            { "day": "Senin", "time": "13:00-14:40", "room": "D102" }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF2034",
+          "name": "Manajemen Proyek TI",
+          "credits": 2,
+          "class": "A",
+          "lecturer": "Laras Widyastuti, M.Kom",
+          "schedule": [
+            { "day": "Rabu", "time": "08:00-09:40", "room": "B102" }
+          ],
+          "status": "ongoing"
+        }
+      ]
+    }
+  ]
+}
