@@ -1,0 +1,161 @@
+[
+  {
+    "id": "21b72142-61c3-4fc2-bab5-83ce68605f47",
+    "judul": "Dashboard Rekomendasi Harga Penginapan di New York Cityy",
+    "mahasiswa": {
+      "nim": "2211522036",
+      "nama": "Mustafa Fathur Rahman"
+    },
+    "pembimbing": [
+      {
+        "nama": "Afriyanti Dwi Kartika, M.T",
+        "peran": "Pembimbing 1"
+      }
+    ]
+  },
+  {
+    "id": "08352ab2-6fb7-4ad6-adb3-0267d5ec0f94",
+    "judul": "Sistem Informasi Manajemen Semhas Sidang dan Yudisium",
+    "mahasiswa": {
+      "nim": "2211522036",
+      "nama": "Mustafa Fathur Rahman"
+    },
+    "pembimbing": []
+  },
+  {
+    "id": "7b7d08b5-8712-4989-85ea-9b34ec22f21c",
+    "judul": "sadasdasdasdsad",
+    "mahasiswa": {
+      "nim": "2211522028",
+      "nama": "Ilham"
+    },
+    "pembimbing": [
+      {
+        "nama": "Ricky Akbar M.Kom",
+        "peran": "Pembimbing 1"
+      },
+      {
+        "nama": "Hasdi Putra",
+        "peran": "Pembimbing 2"
+      }
+    ]
+  },
+  {
+    "id": "32477c3a-95c6-4cac-8b71-e17c9d902e9d",
+    "judul": "fdfdfdf",
+    "mahasiswa": {
+      "nim": "2211522028",
+      "nama": "Ilham"
+    },
+    "pembimbing": []
+  },
+  {
+    "id": "3e628716-4a23-4769-bd46-0772719d62c1",
+    "judul": "sdsadsadsadsadasdasdadsd",
+    "mahasiswa": {
+      "nim": "2211523034",
+      "nama": "Muhammad Fariz"
+    },
+    "pembimbing": [
+      {
+        "nama": "Afriyanti Dwi Kartika, M.T",
+        "peran": "Pembimbing 2"
+      },
+      {
+        "nama": "Husnil Kamil, MT",
+        "peran": "Pembimbing 1"
+      }
+    ]
+  },
+  {
+    "id": "82b0ebb8-717b-48a4-8a2c-2f7c20fa0983",
+    "judul": "Sistem Reservasi Hotel ABC",
+    "mahasiswa": {
+      "nim": "2211522102",
+      "nama": "Test Ganti Dospem"
+    },
+    "pembimbing": [
+      {
+        "nama": "Afriyanti Dwi Kartika, M.T",
+        "peran": "Pembimbing 2"
+      },
+      {
+        "nama": "Husnil Kamil, MT",
+        "peran": "Pembimbing 1"
+      }
+    ]
+  },
+  {
+    "id": "3fc53d6a-cd4f-4223-902a-2970e874e0ef",
+    "judul": "Sistem E-Commerce Toko Online XYZ",
+    "mahasiswa": {
+      "nim": "2211522101",
+      "nama": "Test Ganti Topik"
+    },
+    "pembimbing": [
+      {
+        "nama": "Afriyanti Dwi Kartika, M.T",
+        "peran": "Pembimbing 1"
+      },
+      {
+        "nama": "Husnil Kamil, MT",
+        "peran": "Pembimbing 2"
+      }
+    ]
+  },
+  {
+    "id": "71ba824b-4f1c-4af9-bb95-6aaaf50c23c5",
+    "judul": "Sistem Informasi Generate Report di Dinas Radio Kota Padang",
+    "mahasiswa": {
+      "nim": "2211523022",
+      "nama": "Daffa Agustian Saadi"
+    },
+    "pembimbing": [
+      {
+        "nama": "Afriyanti Dwi Kartika, M.T",
+        "peran": "Pembimbing 1"
+      }
+    ]
+  },
+  {
+    "id": "ada6030d-6804-4ceb-aae0-ce594f4914c5",
+    "judul": "Sistem Kerja Praktek di DSI",
+    "mahasiswa": {
+      "nim": "2211523034",
+      "nama": "Muhammad Fariz"
+    },
+    "pembimbing": []
+  },
+  {
+    "id": "a552149d-b310-4c1c-b3b5-0390f6111913",
+    "judul": "Sistem Monitoring Tugas Akhir di DSI",
+    "mahasiswa": {
+      "nim": "2211522018",
+      "nama": "Nabil Rizki Navisa"
+    },
+    "pembimbing": [
+      {
+        "nama": "Husnil Kamil, MT",
+        "peran": "Pembimbing 1"
+      },
+      {
+        "nama": "Afriyanti Dwi Kartika, M.T",
+        "peran": "Pembimbing 2"
+      }
+    ]
+  },
+  {
+    "id": "0a454898-508a-4c52-8bd7-51e24c600e5e",
+    "judul": "Sistem Informasi Pengelolaan Proposal TA di DSI",
+    "mahasiswa": {
+      "nim": "2211522028",
+      "nama": "Ilham"
+    },
+    "pembimbing": [
+      {
+        "nama": "Afriyanti Dwi Kartika, M.T",
+        "peran": "Pembimbing 1"
+      }
+    ]
+  }
+]

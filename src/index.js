@@ -97,6 +97,35 @@ app.get("/students/:nim/current-courses", tokenGuard, (req, res) => {
   });
 });
 
+app.post("/sync-ta", tokenGuard, (req, res) => {
+  try {
+    const syncData = req.body.data;
+    if (!syncData || !Array.isArray(syncData)) {
+      return res.status(400).json({ success: false, message: "Format data tidak valid" });
+    }
+
+    const snapshotDir = path.join(__dirname, "..", "data", "TA snapshot");
+    if (!fs.existsSync(snapshotDir)) {
+      fs.mkdirSync(snapshotDir, { recursive: true });
+    }
+
+    const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
+    const filePath = path.join(snapshotDir, `snapshot_${timestamp}.json`);
+
+    fs.writeFileSync(filePath, JSON.stringify(syncData, null, 2), "utf-8");
+
+    res.json({
+      success: true,
+      message: "Data Tugas Akhir berhasil disinkronisasi dan disimpan sebagai snapshot",
+      filename: `snapshot_${timestamp}.json`,
+      totalRecords: syncData.length
+    });
+  } catch (error) {
+    console.error("Gagal menyimpan snapshot TA:", error);
+    res.status(500).json({ success: false, message: "Terjadi kesalahan pada server SIA" });
+  }
+});
+
 app.use((req, res) => {
   res.status(404).json({ success: false, message: "Route not found" });
 });

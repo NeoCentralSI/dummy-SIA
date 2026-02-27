@@ -17,7 +17,11 @@
           "class": "A",
           "lecturer": "Dr. Galuh Pradipta",
           "schedule": [
-            { "day": "Selasa", "time": "08:00-10:40", "room": "Lab Riset" }
+            {
+              "day": "Selasa",
+              "time": "08:00-10:40",
+              "room": "Lab Riset"
+            }
           ],
           "status": "ongoing"
         },
@@ -28,7 +32,11 @@
           "class": "A",
           "lecturer": "Dr. Ahmad Kadep",
           "schedule": [
-            { "day": "Senin", "time": "13:00-14:40", "room": "D102" }
+            {
+              "day": "Senin",
+              "time": "13:00-14:40",
+              "room": "D102"
+            }
           ],
           "status": "ongoing"
         },
@@ -39,7 +47,11 @@
           "class": "C",
           "lecturer": "Diana Penguji, M.Sc",
           "schedule": [
-            { "day": "Rabu", "time": "08:00-09:40", "room": "Lab QA" }
+            {
+              "day": "Rabu",
+              "time": "08:00-09:40",
+              "room": "Lab QA"
+            }
           ],
           "status": "ongoing"
         }
@@ -62,7 +74,11 @@
           "class": "B",
           "lecturer": "Dr. Galuh Pradipta",
           "schedule": [
-            { "day": "Rabu", "time": "10:50-13:30", "room": "Lab Riset" }
+            {
+              "day": "Rabu",
+              "time": "10:50-13:30",
+              "room": "Lab Riset"
+            }
           ],
           "status": "ongoing"
         },
@@ -73,7 +89,11 @@
           "class": "A",
           "lecturer": "Laras Widyastuti, M.Kom",
           "schedule": [
-            { "day": "Kamis", "time": "08:00-09:40", "room": "B102" }
+            {
+              "day": "Kamis",
+              "time": "08:00-09:40",
+              "room": "B102"
+            }
           ],
           "status": "ongoing"
         },
@@ -84,7 +104,11 @@
           "class": "B",
           "lecturer": "Ir. Indra Saputra",
           "schedule": [
-            { "day": "Selasa", "time": "13:00-14:40", "room": "C305" }
+            {
+              "day": "Selasa",
+              "time": "13:00-14:40",
+              "room": "C305"
+            }
           ],
           "status": "ongoing"
         }
@@ -107,7 +131,11 @@
           "class": "A",
           "lecturer": "Dr. Galuh Pradipta",
           "schedule": [
-            { "day": "Selasa", "time": "08:00-10:40", "room": "Lab Riset" }
+            {
+              "day": "Selasa",
+              "time": "08:00-10:40",
+              "room": "Lab Riset"
+            }
           ],
           "status": "ongoing"
         },
@@ -118,7 +146,11 @@
           "class": "A",
           "lecturer": "Dr. Raka Himawan",
           "schedule": [
-            { "day": "Senin", "time": "09:00-10:40", "room": "D201" }
+            {
+              "day": "Senin",
+              "time": "09:00-10:40",
+              "room": "D201"
+            }
           ],
           "status": "ongoing"
         },
@@ -129,7 +161,11 @@
           "class": "A",
           "lecturer": "Yusuf Rahman, M.T.",
           "schedule": [
-            { "day": "Jumat", "time": "09:00-10:40", "room": "A204" }
+            {
+              "day": "Jumat",
+              "time": "09:00-10:40",
+              "room": "A204"
+            }
           ],
           "status": "ongoing"
         }
@@ -152,7 +188,11 @@
           "class": "B",
           "lecturer": "Dr. Galuh Pradipta",
           "schedule": [
-            { "day": "Rabu", "time": "10:50-13:30", "room": "Lab Riset" }
+            {
+              "day": "Rabu",
+              "time": "10:50-13:30",
+              "room": "Lab Riset"
+            }
           ],
           "status": "ongoing"
         },
@@ -163,7 +203,11 @@
           "class": "B",
           "lecturer": "Dr. Ahmad Kadep",
           "schedule": [
-            { "day": "Selasa", "time": "13:00-14:40", "room": "D102" }
+            {
+              "day": "Selasa",
+              "time": "13:00-14:40",
+              "room": "D102"
+            }
           ],
           "status": "ongoing"
         },
@@ -174,7 +218,11 @@
           "class": "A",
           "lecturer": "Laras Widyastuti, M.Kom",
           "schedule": [
-            { "day": "Kamis", "time": "08:00-09:40", "room": "B102" }
+            {
+              "day": "Kamis",
+              "time": "08:00-09:40",
+              "room": "B102"
+            }
           ],
           "status": "ongoing"
         }
@@ -197,7 +245,11 @@
           "class": "A",
           "lecturer": "Dr. Galuh Pradipta",
           "schedule": [
-            { "day": "Selasa", "time": "08:00-10:40", "room": "Lab Riset" }
+            {
+              "day": "Selasa",
+              "time": "08:00-10:40",
+              "room": "Lab Riset"
+            }
           ],
           "status": "ongoing"
         },
@@ -208,7 +260,11 @@
           "class": "A",
           "lecturer": "Diana Penguji, M.Sc",
           "schedule": [
-            { "day": "Rabu", "time": "10:50-12:30", "room": "Lab QA" }
+            {
+              "day": "Rabu",
+              "time": "10:50-12:30",
+              "room": "Lab QA"
+            }
           ],
           "status": "ongoing"
         },
@@ -219,7 +275,11 @@
           "class": "A",
           "lecturer": "Ir. Indra Saputra",
           "schedule": [
-            { "day": "Kamis", "time": "13:00-14:40", "room": "C305" }
+            {
+              "day": "Kamis",
+              "time": "13:00-14:40",
+              "room": "C305"
+            }
           ],
           "status": "ongoing"
         }
@@ -242,7 +302,11 @@
           "class": "B",
           "lecturer": "Dr. Galuh Pradipta",
           "schedule": [
-            { "day": "Rabu", "time": "10:50-13:30", "room": "Lab Riset" }
+            {
+              "day": "Rabu",
+              "time": "10:50-13:30",
+              "room": "Lab Riset"
+            }
           ],
           "status": "ongoing"
         },
@@ -253,7 +317,11 @@
           "class": "B",
           "lecturer": "Dr. Raka Himawan",
           "schedule": [
-            { "day": "Senin", "time": "13:00-14:40", "room": "D201" }
+            {
+              "day": "Senin",
+              "time": "13:00-14:40",
+              "room": "D201"
+            }
           ],
           "status": "ongoing"
         },
@@ -264,7 +332,11 @@
           "class": "B",
           "lecturer": "Yusuf Rahman, M.T.",
           "schedule": [
-            { "day": "Jumat", "time": "13:00-14:40", "room": "A204" }
+            {
+              "day": "Jumat",
+              "time": "13:00-14:40",
+              "room": "A204"
+            }
           ],
           "status": "ongoing"
         }
@@ -287,7 +359,11 @@
           "class": "A",
           "lecturer": "Dr. Raka Himawan",
           "schedule": [
-            { "day": "Senin", "time": "09:00-10:40", "room": "D201" }
+            {
+              "day": "Senin",
+              "time": "09:00-10:40",
+              "room": "D201"
+            }
           ],
           "status": "ongoing"
         },
@@ -298,7 +374,11 @@
           "class": "A",
           "lecturer": "Dr. Ahmad Kadep",
           "schedule": [
-            { "day": "Selasa", "time": "13:00-14:40", "room": "D102" }
+            {
+              "day": "Selasa",
+              "time": "13:00-14:40",
+              "room": "D102"
+            }
           ],
           "status": "ongoing"
         },
@@ -309,7 +389,11 @@
           "class": "B",
           "lecturer": "Diana Penguji, M.Sc",
           "schedule": [
-            { "day": "Rabu", "time": "08:00-09:40", "room": "Lab QA" }
+            {
+              "day": "Rabu",
+              "time": "08:00-09:40",
+              "room": "Lab QA"
+            }
           ],
           "status": "ongoing"
         }
@@ -332,7 +416,11 @@
           "class": "C",
           "lecturer": "Prof. Ratna Dewi",
           "schedule": [
-            { "day": "Senin", "time": "10:50-12:30", "room": "D103" }
+            {
+              "day": "Senin",
+              "time": "10:50-12:30",
+              "room": "D103"
+            }
           ],
           "status": "ongoing"
         },
@@ -343,7 +431,11 @@
           "class": "A",
           "lecturer": "Ardi Nugroho, M.Kom",
           "schedule": [
-            { "day": "Rabu", "time": "13:00-14:40", "room": "Lab RPL" }
+            {
+              "day": "Rabu",
+              "time": "13:00-14:40",
+              "room": "Lab RPL"
+            }
           ],
           "status": "ongoing"
         },
@@ -354,7 +446,11 @@
           "class": "B",
           "lecturer": "Dr. Dita Sari",
           "schedule": [
-            { "day": "Kamis", "time": "10:50-12:30", "room": "C204" }
+            {
+              "day": "Kamis",
+              "time": "10:50-12:30",
+              "room": "C204"
+            }
           ],
           "status": "ongoing"
         }
@@ -377,7 +473,11 @@
           "class": "A",
           "lecturer": "Dr. Budi Santoso",
           "schedule": [
-            { "day": "Senin", "time": "10:00-11:40", "room": "C201" }
+            {
+              "day": "Senin",
+              "time": "10:00-11:40",
+              "room": "C201"
+            }
           ],
           "status": "ongoing"
         },
@@ -388,7 +488,11 @@
           "class": "B",
           "lecturer": "Ir. Raka Himawan",
           "schedule": [
-            { "day": "Selasa", "time": "09:00-10:40", "room": "B203" }
+            {
+              "day": "Selasa",
+              "time": "09:00-10:40",
+              "room": "B203"
+            }
           ],
           "status": "ongoing"
         },
@@ -399,7 +503,69 @@
           "class": "A",
           "lecturer": "Dewi Kurnia, M.Kom",
           "schedule": [
-            { "day": "Rabu", "time": "13:00-14:40", "room": "Lab DB" }
+            {
+              "day": "Rabu",
+              "time": "13:00-14:40",
+              "room": "Lab DB"
+            }
+          ],
+          "status": "ongoing"
+        }
+      ]
+    },
+    {
+      "nim": "2211523022",
+      "name": "Daffa Agustian Saadi",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "cpl": {
+        "minimumScore": 55,
+        "scores": [
+          {
+            "cplCode": "CPL-1",
+            "description": "Description for CPL-1",
+            "score": 80,
+            "status": "passed"
+          },
+          {
+            "cplCode": "CPL-1",
+            "description": "Description for CPL-1",
+            "score": 80,
+            "status": "passed"
+          },
+          {
+            "cplCode": "CPL-1",
+            "description": "Description for CPL-1",
+            "score": 80,
+            "status": "passed"
+          },
+          {
+            "cplCode": "CPL-1",
+            "description": "Description for CPL-1",
+            "score": 80,
+            "status": "passed"
+          }
+        ]
+      },
+      "currentSemesterCourses": [
+        {
+          "code": "JSITA",
+          "name": "Tugas Akhir",
+          "credits": 4,
+          "class": "",
+          "lecturer": "Husnil Kamil",
+          "nip": "198201182008121002",
+          "thesisTitle": "Rancang Bangun Sistem Informasi Akademik",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
           ],
           "status": "ongoing"
         }
