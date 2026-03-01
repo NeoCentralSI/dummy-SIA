@@ -1,0 +1,10 @@
+node_modules
+.env
+.env.*
+!.env.example
+.git
+.gitignore
+.github
+README.md
+*.log
+data/TA snapshot

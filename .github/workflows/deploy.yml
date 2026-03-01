@@ -1,0 +1,42 @@
+# ─────────────────────────────────────────────────────────────────
+# CI/CD – SIA (dummy-SIA)
+# Triggers on push to main branch
+# Self-hosted runner on VM → build Docker image locally → deploy
+# ─────────────────────────────────────────────────────────────────
+name: Deploy SIA
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  DEPLOY_DIR: /www/wwwroot/neocentral
+  IMAGE_TAG: neocentral/dummy-sia:latest
+
+jobs:
+  # ── Build & Deploy ─────────────────────────────────────────────
+  deploy:
+    name: Build & Deploy
+    runs-on: self-hosted
+    environment: production
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Docker image locally
+        run: docker build -t ${{ env.IMAGE_TAG }} .
+
+      - name: Deploy SIA
+        working-directory: ${{ env.DEPLOY_DIR }}
+        run: |
+          docker compose up -d sia --force-recreate
+
+      - name: Cleanup old images
+        run: docker image prune -f
+
+      - name: Verify deployment
+        working-directory: ${{ env.DEPLOY_DIR }}
+        run: |
+          docker compose ps sia
+          echo "✅ SIA deployed successfully"
