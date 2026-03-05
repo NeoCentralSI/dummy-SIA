@@ -322,6 +322,63 @@
       ]
     },
     {
+      "nim": "2211522020",
+      "name": "Naufal Sigma",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "A",
+          "lecturer": "Dr. Galuh Pradipta",
+          "schedule": [
+            {
+              "day": "Selasa",
+              "time": "08:00-10:40",
+              "room": "Lab Riset"
+            }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF4015",
+          "name": "Pengujian Perangkat Lunak",
+          "credits": 3,
+          "class": "A",
+          "lecturer": "Diana Penguji, M.Sc",
+          "schedule": [
+            {
+              "day": "Rabu",
+              "time": "10:50-12:30",
+              "room": "Lab QA"
+            }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF4022",
+          "name": "Keamanan Informasi",
+          "credits": 3,
+          "class": "A",
+          "lecturer": "Ir. Indra Saputra",
+          "schedule": [
+            {
+              "day": "Kamis",
+              "time": "13:00-14:40",
+              "room": "C305"
+            }
+          ],
+          "status": "ongoing"
+        }
+      ]
+    },
+    {
       "nim": "2211522028",
       "name": "Ilham",
       "sksCompleted": 140,
