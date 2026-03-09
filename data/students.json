@@ -1,8 +1,8 @@
 {
   "students": [
     {
-      "nim": "2211522018",
-      "name": "Nabil Rizki Navisa",
+      "nim": "2211521020",
+      "name": "Muhammad Nouval Habibie",
       "sksCompleted": 140,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
@@ -15,7 +15,7 @@
           "name": "Tugas Akhir",
           "credits": 6,
           "class": "A",
-          "lecturer": "Dr. Galuh Pradipta",
+          "lecturer": "Husnil Kamil, MT",
           "schedule": [
             {
               "day": "Selasa",
@@ -23,88 +23,20 @@
               "room": "Lab Riset"
             }
           ],
-          "status": "ongoing"
-        },
-        {
-          "code": "IF4011",
-          "name": "Sistem Informasi Enterprise",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Dr. Ahmad Kadep",
-          "schedule": [
-            {
-              "day": "Senin",
-              "time": "13:00-14:40",
-              "room": "D102"
-            }
-          ],
-          "status": "ongoing"
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Lab di Departemen Sistem Informasi Universitas Andalas"
         },
         {
           "code": "IF4015",
           "name": "Pengujian Perangkat Lunak",
           "credits": 3,
-          "class": "C",
+          "class": "A",
           "lecturer": "Diana Penguji, M.Sc",
           "schedule": [
             {
               "day": "Rabu",
-              "time": "08:00-09:40",
+              "time": "10:50-12:30",
               "room": "Lab QA"
-            }
-          ],
-          "status": "ongoing"
-        }
-      ],
-      "cplScores": [
-        {
-          "code": "CPL-01",
-          "score": 82,
-          "inputAt": "2026-02-28T09:30:00.000Z"
-        },
-        {
-          "code": "CPL-02",
-          "score": 78,
-          "inputAt": "2026-02-28T09:30:00.000Z"
-        }
-      ]
-    },
-    {
-      "nim": "2211523034",
-      "name": "Muhammad Fariz",
-      "sksCompleted": 140,
-      "mandatoryCoursesCompleted": true,
-      "mkwuCompleted": true,
-      "internshipCompleted": true,
-      "kknCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
-        {
-          "code": "IF5001",
-          "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "B",
-          "lecturer": "Dr. Galuh Pradipta",
-          "schedule": [
-            {
-              "day": "Rabu",
-              "time": "10:50-13:30",
-              "room": "Lab Riset"
-            }
-          ],
-          "status": "ongoing"
-        },
-        {
-          "code": "IF4012",
-          "name": "Manajemen Proyek TI",
-          "credits": 2,
-          "class": "A",
-          "lecturer": "Laras Widyastuti, M.Kom",
-          "schedule": [
-            {
-              "day": "Kamis",
-              "time": "08:00-09:40",
-              "room": "B102"
             }
           ],
           "status": "ongoing"
@@ -113,28 +45,860 @@
           "code": "IF4022",
           "name": "Keamanan Informasi",
           "credits": 3,
-          "class": "B",
+          "class": "A",
           "lecturer": "Ir. Indra Saputra",
           "schedule": [
             {
-              "day": "Selasa",
+              "day": "Kamis",
               "time": "13:00-14:40",
               "room": "C305"
             }
           ],
           "status": "ongoing"
         }
-      ],
-      "cplScores": [
+      ]
+    },
+    {
+      "nim": "2211523020",
+      "name": "Laura Iffa Razitta",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
         {
-          "code": "CPL-01",
-          "score": 75,
-          "inputAt": "2026-02-27T14:00:00.000Z"
-        },
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Rahmatika Pratama Santi, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Rancang Bangun Sistem Informasi Ticketing Helpdesk Berbasis Web pada PT. Pelabuhan Indonesia (PERSERO) Regional II"
+        }
+      ]
+    },
+    {
+      "nim": "2211523018",
+      "name": "Najwa Nur Faizah",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
         {
-          "code": "CPL-03",
-          "score": 80,
-          "inputAt": "2026-02-27T14:00:00.000Z"
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Jefril Rahmadoni, M. Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Simpan Pinjam Syariah Koperasi Fakultas Teknik Universitas Andalas",
+          "lecturer2": "Rahmatika Pratama Santi, M.T."
+        }
+      ]
+    },
+    {
+      "nim": "2211523016",
+      "name": "Zhafira Syarafina",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ricky Akbar M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Pendukung Keputusan Penentuan Tingkat Keparahan dan Rekomendasi Penanganan Penyakit Lupus Menggunakan Bayesian Network (Studi Kasus RSUP DR. M. Djamil Padang)"
+        }
+      ]
+    },
+    {
+      "nim": "2211523014",
+      "name": "Rania Shofi Malika",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Afriyanti Dwi Kartika, M.T",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Pengaduan Layanan Teknologi INformasi Berbasis Web pada Dinas Komunikasi dan Informatika Kota Padang"
+        }
+      ]
+    },
+    {
+      "nim": "2211523010",
+      "name": "Azhra Meisa Khairani",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Jefril Rahmadoni, M. Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Penunjang Keputusan Evaluasi Tumbuh Kembang Anak Usia Dini Menggunakan Metode Fuzzy Simple Multi-Attribute Rating Technique pada TK Negeri Pembina Padang Panjang",
+          "lecturer2": "Rahmatika Pratama Santi, M.T."
+        }
+      ]
+    },
+    {
+      "nim": "2211523008",
+      "name": "Heni Yunida",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ullya Mega Wahyuni, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Persuratan Berbasis Web dengan Fitur Otomatisasi Disposisi dan Agenda Elektronik pada Dinas Perumahan Kawaban Permukiman dan Lingkungan Hidup Kabupaten Solok Selatan"
+        }
+      ]
+    },
+    {
+      "nim": "2211523006",
+      "name": "Sistri Mahira",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Hasdi Putra, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Evaluasi Efektifitas Sistem Informasi Pengelolaan Dana Zakat, Infaq, dan Sedekah untuk Meningkatkan Transparanasi dan Akuntabilitas pada BAZNAS Kabupaten Zolok Selatan"
+        }
+      ]
+    },
+    {
+      "nim": "2211523004",
+      "name": "Fajrin Putra Pratama",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Jefril Rahmadoni, M. Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Alur Kerja Terintegrasi: Rekapitulasi Booking, Kolaborasi Pasca Produksi, dan Penggajian pada Alter Studio"
+        }
+      ]
+    },
+    {
+      "nim": "2211522037",
+      "name": "Muhammad Dani Noar",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Haris Suryamen, M.Sc.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Posyandu Integrasi Layanan Primer (ILP) Berbasis Web untuk Optimalisasi Pelaporan E-PPGBM di Puskesmas Muaro Bodi",
+          "lecturer2": "Adi Arga Arifnur, M.Kom"
+        }
+      ]
+    },
+    {
+      "nim": "2211522035",
+      "name": "Akram Makruf Aidil",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Hasdi Putra, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pengelolaan Asistensi Agama Islam (Studi Kasus: Universitas Andalas)"
+        }
+      ]
+    },
+    {
+      "nim": "2211522034",
+      "name": "Anastasya Estu Wahyudi",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ullya Mega Wahyuni, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pelaporan Kinerja Berbasis Web pada BAPPEDA Kabupaten Sijunjung"
+        }
+      ]
+    },
+    {
+      "nim": "2211522030",
+      "name": "Isra Rahma Dina",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ullya Mega Wahyuni, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pelaporan Produksi dan Penjualan Madu Galo-Galo pada Kelompok Binaan UPTD KPHL Bukit Barisan"
+        }
+      ]
+    },
+    {
+      "nim": "2211522024",
+      "name": "Miftahul Janah",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Afriyanti Dwi Kartika, M.T",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Donasi dan Monitoring Bibit Pohon pada Komunitas Konservasi Indonesia WARSI"
+        }
+      ]
+    },
+    {
+      "nim": "2211522022",
+      "name": "Azizah Novi Delfianti",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ricky Akbar M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Aplikasi Pengelolaan Penyaluran Infaq Melalui Penjualan Barang dengan Memanfaatkan Model Bisnis Marketplace Berbasis Website pada UPZ Unand"
+        }
+      ]
+    },
+    {
+      "nim": "2211522016",
+      "name": "Vioni Wijaya Putri",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Rahmatika Pratama Santi, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Rancang Bangun Sistem Informasi Pengelolaan Inventaris, Peminjaman Ruangan dan Kendaraan Berbasis Web dengan Integrasi Single Sign On (SSO) pada Dinas Lingkungan Hidup Provinsi Sumatera Barat"
+        }
+      ]
+    },
+    {
+      "nim": "2211522010",
+      "name": "Fadli Hidayat",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Hasdi Putra, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Akademik Berbasis Web dengan Algoritma Hybrid CP-SAT + GA untuk Penjadwalan Otomatis di SMA N Hiliran Gumanti"
+        }
+      ]
+    },
+    {
+      "nim": "2211522008",
+      "name": "Triana Zahara Nurhaliza",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ricky Akbar M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Rancang Bangun Sistem Informasi Tindak Lanjut Hasil Pemeriksanaan (TLHP) berbasis Web pada Inspektorat Kota Bukittinggi"
+        }
+      ]
+    },
+    {
+      "nim": "2211522006",
+      "name": "Ruchil Amelinda",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Hasdi Putra, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pengembangan Sistem Informasi Pelaporan Terintegrasi Dashboard Bussiness Intelligence Studi Kasus Gudang Farmasi Rumah Sakit Universitas Andalas"
+        }
+      ]
+    },
+    {
+      "nim": "2211521014",
+      "name": "Izza Try Malinda",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Afriyanti Dwi Kartika, M.T",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pendaftaran dan Pengelolaan umroh Berbasis Web pada Ardaya Travel"
+        }
+      ]
+    },
+    {
+      "nim": "2211521012",
+      "name": "Rizka Kurnia Illahi",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ricky Akbar M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pengelolaan Keuangan Informasi Kegiatan, Qurban, dan Administrasi MDTA Masjid Al-Furqon Kota Solok"
+        }
+      ]
+    },
+    {
+      "nim": "2211521010",
+      "name": "Dhiya Gustita Aqila",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ricky Akbar M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Penunjang Keputusan untuk Merekomendasikan Diagnosis Awal Penyakit Gagal Ginjal Kronik Menggunakan Metode KNN Pada Rumah Sakit DKT Kerinci"
+        }
+      ]
+    },
+    {
+      "nim": "2211521008",
+      "name": "Naufal Adli Dhiaurrahman",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ullya Mega Wahyuni, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Dashboard Bussiness Intelligence Rekomendasi Negara Tujuan Exchange Participants Menggunakan Machine Learning pada AIESEC UNAND",
+          "lecturer2": "Aina Hubby Aziira, M.Eng"
+        }
+      ]
+    },
+    {
+      "nim": "2211521006",
+      "name": "Najla Nadiva",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ricky Akbar M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Pendukung Keputusan Pemiilihan Gedung dan Ballroom Hotel untuk Venue resepsi Pernikahan Terbaik di Kota Bukittinggi Menggunakan Metode SMART (Studi Kasus Fakhira Pelainan)"
+        }
+      ]
+    },
+    {
+      "nim": "2211521004",
+      "name": "Nadia Deari Hanifah",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Afriyanti Dwi Kartika, M.T",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Agenda Pimpinan Berbasis Website pada Bagian Protokol dan Komunikasi Pimpinan Sekretariat Daerah Kota Padang"
+        }
+      ]
+    },
+    {
+      "nim": "2211521002",
+      "name": "Najla Humaira Desni",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Rahmatika Pratama Santi, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Dashboard Bussiness Intelligence dengan Forecasting pada Data Penjualan Apotek Makmur Mandiri Kota Pariaman Menggunakan Framework Dash"
+        }
+      ]
+    },
+    {
+      "nim": "2111523020",
+      "name": "Dio Apri Dandi",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Aina Hubby Aziira, M.Eng",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Implementasi Bussiness Intelligence untuk Analisis Penjualan menggunakan Dashboard, Forecasting, dan Clusterinf (Studi Kasus: Zero Ponsel)"
+        }
+      ]
+    },
+    {
+      "nim": "2111522011",
+      "name": "Annisa Gita Subhi",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ricky Akbar M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Pendukung Keputusan Dalam menentukan Prioritas Program Pembangunan di Nagari Tanjung Beringin Menggunakan Metode Vikor"
+        }
+      ]
+    },
+    {
+      "nim": "2011522013",
+      "name": "Jahro Suroyo Taurin",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Haris Suryamen, M.Sc.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pendaftaran Magang dan Penelitian Berbasis Website di Permda Air Minum Kota Padang"
+        }
+      ]
+    },
+    {
+      "nim": "2211523036",
+      "name": "Nabila R. Dzakira",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ullya Mega Wahyuni, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Penerapan Bussiness Intelligence Berbasis Dashboard dengan Fitur Forecasting dalam Monitoring Stabilitas Harga Bapokting pada Dinas Perdagangan Kota Padang"
+        }
+      ]
+    },
+    {
+      "nim": "2211523031",
+      "name": "Muhammad Zaki Andafi",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ullya Mega Wahyuni, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Produksi ready Mix untuk Proses Pemesanan dan Manajemen Stok Berbasis QR-Code pada PT Panca Mulia Beton"
         }
       ]
     },
@@ -153,7 +917,7 @@
           "name": "Tugas Akhir",
           "credits": 6,
           "class": "A",
-          "lecturer": "Dr. Galuh Pradipta",
+          "lecturer": "Husnil Kamil, MT",
           "schedule": [
             {
               "day": "Selasa",
@@ -161,7 +925,8 @@
               "room": "Lab Riset"
             }
           ],
-          "status": "ongoing"
+          "status": "ongoing",
+          "thesisTitle": "Rancang Bangun Sistem Informasi Beasiswa Non-APBN di Direktorat Kemahasiswaan Univeritas Andalas"
         },
         {
           "code": "IF4010",
@@ -208,6 +973,980 @@
       ]
     },
     {
+      "nim": "2211523028",
+      "name": "Muhammad Faiz Al-Dzikro",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ullya Mega Wahyuni, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Penjualan dan Manajemen Stok Multi-Cabang Berbasis Web pada Toko Pakaian Grand Citra Levi's"
+        }
+      ]
+    },
+    {
+      "nim": "2211523024",
+      "name": "Meutia Dewi Putri Kartika",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Hafizah Hanim, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Layanan Laboratorium Lingkungan pada Dinas Lingkungan Hidup Provinsi Sumatera Barat"
+        }
+      ]
+    },
+    {
+      "nim": "2211523019",
+      "name": "Niken Khalilah Hamuti",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Dwi Welly Sukma Nirad, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Penerapan Bussines Intelligence dengan Dashboard Forecasting dan Clustering pada Data Transaksi Toko Nusantara Ritel Multi Cabang Berbasis Streamlit"
+        }
+      ]
+    },
+    {
+      "nim": "2211523017",
+      "name": "Vatya Arsha Mahmudi",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Dwi Welly Sukma Nirad, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Penerapan Bussines Intelligence dengan Dashboard Forecasting dan Clustering pada Data Transaksi Toko Nusantara Ritel Multi Cabang Berbasis Streamlit"
+        }
+      ]
+    },
+    {
+      "nim": "2211523012",
+      "name": "Syauqi Nabiih Marwa",
+      "sksCompleted": 120,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "A",
+          "lecturer": "Ricky Akbar M.Kom",
+          "schedule": [
+            {
+              "day": "Senin",
+              "time": "09:00-10:40",
+              "room": "D201"
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi menotoring Kegiatan Pembinaan Karakter Mahasiswa Berbasis Web di Asrama Universitas Andalas"
+        },
+        {
+          "code": "IF4010",
+          "name": "Sistem Terdistribusi",
+          "credits": 3,
+          "class": "A",
+          "lecturer": "Dr. Raka Himawan",
+          "schedule": [
+            {
+              "day": "Senin",
+              "time": "09:00-10:40",
+              "room": "D201"
+            }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF4011",
+          "name": "Sistem Informasi Enterprise",
+          "credits": 3,
+          "class": "A",
+          "lecturer": "Dr. Ahmad Kadep",
+          "schedule": [
+            {
+              "day": "Selasa",
+              "time": "13:00-14:40",
+              "room": "D102"
+            }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF4015",
+          "name": "Pengujian Perangkat Lunak",
+          "credits": 3,
+          "class": "B",
+          "lecturer": "Diana Penguji, M.Sc",
+          "schedule": [
+            {
+              "day": "Rabu",
+              "time": "08:00-09:40",
+              "room": "Lab QA"
+            }
+          ],
+          "status": "ongoing"
+        }
+      ]
+    },
+    {
+      "nim": "2211523011",
+      "name": "Tegar Ananda",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ullya Mega Wahyuni, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pendaftaran Umroh Berbasis Web dengan Integrasi Chatbot Assistant pada Bonita Umroh"
+        }
+      ]
+    },
+    {
+      "nim": "2211523009",
+      "name": "Athaya Clara Diva",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Afriyanti Dwi Kartika, M.T",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Rekapitulasi Pelaporan Pasien Hipertensi Berbasis Web pada Puskesma IV Koto Kabupaten Agam"
+        }
+      ]
+    },
+    {
+      "nim": "2211523007",
+      "name": "Cindy Arwinda Putri",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Hasdi Putra, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Penerapan Konsep Data-Dwriven Governance Melalui Sistem Informasi Nagari Mendukung Transformasi Digital Pemerintahan di Nagari Lubuk Gadang"
+        }
+      ]
+    },
+    {
+      "nim": "2211523005",
+      "name": "Intan Salma Denaidy",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Hasdi Putra, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Inventaris untuk Layanan Pengelolaan dan Peminjaman Alat Laboratorium Penelitian Fakultas Farmasi Universitas Andalas dengan Pendekatan BPM Capability Model"
+        }
+      ]
+    },
+    {
+      "nim": "2211523003",
+      "name": "Regina Nathamiya Pramija",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ullya Mega Wahyuni, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Perencanaan dan Implementasi Sistem Informasi Manajemen Karyawan Berbasis Web dengan Integrasi Absesnsi Berbasis Validasi Lokasi dan Penggajian Otomatis Menggunakan Metode Waterfall pada PT.Citra Bangun Nagari"
+        }
+      ]
+    },
+    {
+      "nim": "2211523001",
+      "name": "Wulandari Yulianis",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Hasdi Putra, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Monitoring dan Evaluasi Pembangunan di Nagari Sungai Batang berbasis Web dengan E-Government Maturity Model"
+        }
+      ]
+    },
+    {
+      "nim": "2211522031",
+      "name": "Muhammad Raihan Alghifari",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Hasdi Putra, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pengelolan Gudang Rumah Sakit dengan Fitur Early Warning dan Tracking Stock Gudang pada Rumah Sakit Universitas Andalas"
+        }
+      ]
+    },
+    {
+      "nim": "2211522029",
+      "name": "Ari Raihan Dafa",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ullya Mega Wahyuni, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Perizinan Santri Insan Cendekia Boarding School Payakumbuh"
+        }
+      ]
+    },
+    {
+      "nim": "2211522027",
+      "name": "Aqima Adalahita",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Rahmatika Pratama Santi, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Implementasi Bussiness Intelligence untuk Analisis Data Realisasi Anggaran Satuan Kerja (Studi Kasus: Kanwil DJPb Provinsi Sumatera Barat)"
+        }
+      ]
+    },
+    {
+      "nim": "2211522023",
+      "name": "Talitha Zulfa Amirah",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ricky Akbar M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Rancangan Bangun Sistem Informasi Manajemen Tempat Kursus pada Palapa Computer Batusangkar Berbasis Web"
+        }
+      ]
+    },
+    {
+      "nim": "2211522019",
+      "name": "Angeli Putri Ramadhani",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Dwi Welly Sukma Nirad, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan SPK Penentuan Prioritas Pengecekan Draft Berita Menggunakan Metode Simple Multi-Attribute Rating Technique dengan Dukungan Proses Manajemen Draft Berita di Tribun Sumbar"
+        }
+      ]
+    },
+    {
+      "nim": "2211522017",
+      "name": "Zelfitrio Rodeski",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ullya Mega Wahyuni, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Sistem Pendukung Keputusan Diagnosa Kerusakan Handphone Berbasis Rule-Based Reasoning dan Pembookingan Layanan Repair (Studi Kasus: Chi Cha Mobile)"
+        }
+      ]
+    },
+    {
+      "nim": "2211522015",
+      "name": "Oktaviani Andrianti",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ricky Akbar M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Pendukung Keputusan untuk Rekomendasi MPASI Seimbang Bayi Usia 6-12 Bulan Menggunakan Metode Naïve Bayes dan Vikor"
+        }
+      ]
+    },
+    {
+      "nim": "2211522013",
+      "name": "Benni Putra Chaniago",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Dwi Welly Sukma Nirad, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pengembangan dan Implementasi Sistem Prediksi Kebutuhan Obat dan Alat Kesehatan Berbasis Web Menggunakan Algoritma LSTM (Studi Kasus: Puskesmas Situjuh)",
+          "lecturer2": "Febby Apri Wenando, M.Eng"
+        }
+      ]
+    },
+    {
+      "nim": "2211522011",
+      "name": "Ghifari Rizki Ramadhan",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Jefril Rahmadoni, M. Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Rancangan Bangun Sistem Monitoring Truk Berbasis Web dengan Fitur GPS pada PT Harry Tridarma",
+          "lecturer2": "Rahmatika Pratama Santi, M.T."
+        }
+      ]
+    },
+    {
+      "nim": "2211522009",
+      "name": "Ramadhani Safitri",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Rahmatika Pratama Santi, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pengelolaan Bank Sampah Berbasis Mobile dan Web dengan Arsitektur Multi-level dan Dual Reward System pada Pusat Pengelolaan Sampah Terpadu Universitas Andalas",
+          "lecturer2": "Jefril Rahmadoni, M. Kom"
+        }
+      ]
+    },
+    {
+      "nim": "2211522005",
+      "name": "Radiatul Mutmainnah",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Febby Apri Wenando, M.Eng",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Laporan Kegatan Bulanan Siswa Menggunakan Natural Language Processing dengan Algoritma Random Forest untuk Analisis Pola Perkembangan Anak di Sekolah Anak Usia Dini"
+        }
+      ]
+    },
+    {
+      "nim": "2211523021",
+      "name": "Muhammad Farhan",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Hasdi Putra, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Keuangan dan Kenggotaan Koperasi Berbasis Web dengan Komunikasi Real-Time Menggunakan Websocket di PT Nichias Sunijaya"
+        }
+      ]
+    },
+    {
+      "nim": "2211522003",
+      "name": "Frizqya Dela Pratiwi",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ullya Mega Wahyuni, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pelaporan Data Terpilah Gender dan Anak Berbasis Web pada Dinas Sosial, Pembedayaan Perempuan dan Perlindungan Anak Kabupaten Pesisir Selatan"
+        }
+      ]
+    },
+    {
+      "nim": "2211521019",
+      "name": "Umar Abdullah Azzam",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Jefril Rahmadoni, M. Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Sekolah Menggunakan ERP Odoo pada SMA IT Latansa Cendekia",
+          "lecturer2": "Ullya Mega Wahyuni, M.Kom"
+        }
+      ]
+    },
+    {
+      "nim": "2211521017",
+      "name": "Ghina Anfasha Nurhadi",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Afriyanti Dwi Kartika, M.T",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Perencanaa, Evaluasi dan Penilaian Pembelajaran Berbasis Web pada SMP Negeri 4 X Koto"
+        }
+      ]
+    },
+    {
+      "nim": "2211521015",
+      "name": "Nurul Afani",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ricky Akbar M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pendukung Keputusan untuk Merekomendasikan Sekolah Ramah Anak di Kota Sawahlunto Menggunakan Metode Waspas pada Dinas Sosial Pemberdayaan Masyarakat"
+        }
+      ]
+    },
+    {
+      "nim": "2211521013",
+      "name": "Meydiva Intayeza",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Hasdi Putra, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pengembangan Sistem Informasi Manajemen Aset Berbasis Web dengan Analisis Depresiasi dan Kelayakan Aset (Studi Kasus: Rumah Sakit universitas  Andalas)"
+        }
+      ]
+    },
+    {
+      "nim": "2211521009",
+      "name": "Miftahul Khaira",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Dwi Welly Sukma Nirad, M.T.",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pengembangan Sistem Analisis Topik Metadata Video Instagram Berbasis Bertopic untuk Medukung Strategi Penerbitan Berita di Padang TV",
+          "lecturer2": "Febby Apri Wenando, M.Eng"
+        }
+      ]
+    },
+    {
+      "nim": "2211521007",
+      "name": "Annisa Nurul Hakim",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Afriyanti Dwi Kartika, M.T",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pengelolaan Stok dan Distribusi Obat Berbasis Web pada Apotek Bintang Ilahi"
+        }
+      ]
+    },
+    {
+      "nim": "2211521003",
+      "name": "Mhd. Ulil Abshar",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Husnil Kamil, MT",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pengelolaan Standar Operasional Prosedur Berbasis Web Pada Sekretariat Daerah Biro Organisasi Provinsi Sumatera Barat"
+        }
+      ]
+    },
+    {
+      "nim": "2211521001",
+      "name": "Rahma Aurelia Zami",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Ullya Mega Wahyuni, M.Kom",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Sistem Pendukung Keputusan untuk Identifikasi Risiko Putus Sekolah dan Rekomendasi Tindak Lanjut Menggunakan Fuzzy Logic pada SDN 11 Kampung Batu Dalam"
+        }
+      ]
+    },
+    {
+      "nim": "2111523007",
+      "name": "Muhammad Ikhlas",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Aina Hubby Aziira, M.Eng",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Implementasi Bussiness Intelligence Berbasis Sistem Dashboard Fitur Forecasting, Clustering, dan Scheduler pada Data Pengiriman PT. Satria Antaran Prime TBK (Cabang Padang)"
+        }
+      ]
+    },
+    {
       "nim": "2211522036",
       "name": "Mustafa Fathur Rahman",
       "sksCompleted": 140,
@@ -222,7 +1961,7 @@
           "name": "Tugas Akhir",
           "credits": 6,
           "class": "B",
-          "lecturer": "Dr. Galuh Pradipta",
+          "lecturer": "Husnil Kamil, MT",
           "schedule": [
             {
               "day": "Rabu",
@@ -230,7 +1969,8 @@
               "room": "Lab Riset"
             }
           ],
-          "status": "ongoing"
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Seminar Sidang Tugas Akhir dan Yudisium di Departemen Sistem Informasi Universitas Andalas"
         },
         {
           "code": "IF4011",
@@ -265,122 +2005,8 @@
       ]
     },
     {
-      "nim": "2211521020",
-      "name": "Muhammad Nouval Habibie",
-      "sksCompleted": 140,
-      "mandatoryCoursesCompleted": true,
-      "mkwuCompleted": true,
-      "internshipCompleted": true,
-      "kknCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
-        {
-          "code": "IF5001",
-          "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "A",
-          "lecturer": "Dr. Galuh Pradipta",
-          "schedule": [
-            {
-              "day": "Selasa",
-              "time": "08:00-10:40",
-              "room": "Lab Riset"
-            }
-          ],
-          "status": "ongoing"
-        },
-        {
-          "code": "IF4015",
-          "name": "Pengujian Perangkat Lunak",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Diana Penguji, M.Sc",
-          "schedule": [
-            {
-              "day": "Rabu",
-              "time": "10:50-12:30",
-              "room": "Lab QA"
-            }
-          ],
-          "status": "ongoing"
-        },
-        {
-          "code": "IF4022",
-          "name": "Keamanan Informasi",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Ir. Indra Saputra",
-          "schedule": [
-            {
-              "day": "Kamis",
-              "time": "13:00-14:40",
-              "room": "C305"
-            }
-          ],
-          "status": "ongoing"
-        }
-      ]
-    },
-    {
-      "nim": "2211522020",
-      "name": "Naufal Sigma",
-      "sksCompleted": 140,
-      "mandatoryCoursesCompleted": true,
-      "mkwuCompleted": true,
-      "internshipCompleted": true,
-      "kknCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
-        {
-          "code": "IF5001",
-          "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "A",
-          "lecturer": "Dr. Galuh Pradipta",
-          "schedule": [
-            {
-              "day": "Selasa",
-              "time": "08:00-10:40",
-              "room": "Lab Riset"
-            }
-          ],
-          "status": "ongoing"
-        },
-        {
-          "code": "IF4015",
-          "name": "Pengujian Perangkat Lunak",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Diana Penguji, M.Sc",
-          "schedule": [
-            {
-              "day": "Rabu",
-              "time": "10:50-12:30",
-              "room": "Lab QA"
-            }
-          ],
-          "status": "ongoing"
-        },
-        {
-          "code": "IF4022",
-          "name": "Keamanan Informasi",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Ir. Indra Saputra",
-          "schedule": [
-            {
-              "day": "Kamis",
-              "time": "13:00-14:40",
-              "room": "C305"
-            }
-          ],
-          "status": "ongoing"
-        }
-      ]
-    },
-    {
       "nim": "2211522028",
-      "name": "Ilham",
+      "name": "Ilham Nofaldi",
       "sksCompleted": 140,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
@@ -393,7 +2019,7 @@
           "name": "Tugas Akhir",
           "credits": 6,
           "class": "B",
-          "lecturer": "Dr. Galuh Pradipta",
+          "lecturer": "Husnil Kamil, MT",
           "schedule": [
             {
               "day": "Rabu",
@@ -401,7 +2027,8 @@
               "room": "Lab Riset"
             }
           ],
-          "status": "ongoing"
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Proposal Tugas Akhir di Departemen Sistem Informasi Universitas Andalas"
         },
         {
           "code": "IF4010",
@@ -436,173 +2063,72 @@
       ]
     },
     {
-      "nim": "2211523012",
-      "name": "Syauqi",
-      "sksCompleted": 120,
-      "mandatoryCoursesCompleted": false,
+      "nim": "2211523034",
+      "name": "Muhammad Fariz",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
-      "internshipCompleted": false,
+      "internshipCompleted": true,
       "kknCompleted": true,
       "currentSemester": 7,
       "currentSemesterCourses": [
         {
-          "code": "IF4010",
-          "name": "Sistem Terdistribusi",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Dr. Raka Himawan",
-          "schedule": [
-            {
-              "day": "Senin",
-              "time": "09:00-10:40",
-              "room": "D201"
-            }
-          ],
-          "status": "ongoing"
-        },
-        {
-          "code": "IF4011",
-          "name": "Sistem Informasi Enterprise",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Dr. Ahmad Kadep",
-          "schedule": [
-            {
-              "day": "Selasa",
-              "time": "13:00-14:40",
-              "room": "D102"
-            }
-          ],
-          "status": "ongoing"
-        },
-        {
-          "code": "IF4015",
-          "name": "Pengujian Perangkat Lunak",
-          "credits": 3,
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
           "class": "B",
-          "lecturer": "Diana Penguji, M.Sc",
+          "lecturer": "Husnil Kamil, MT",
           "schedule": [
             {
               "day": "Rabu",
-              "time": "08:00-09:40",
-              "room": "Lab QA"
+              "time": "10:50-13:30",
+              "room": "Lab Riset"
             }
           ],
-          "status": "ongoing"
-        }
-      ]
-    },
-    {
-      "nim": "2311523026",
-      "name": "Dimas",
-      "sksCompleted": 90,
-      "mandatoryCoursesCompleted": false,
-      "mkwuCompleted": true,
-      "internshipCompleted": false,
-      "kknCompleted": false,
-      "currentSemester": 5,
-      "currentSemesterCourses": [
-        {
-          "code": "IF3015",
-          "name": "Kecerdasan Buatan",
-          "credits": 3,
-          "class": "C",
-          "lecturer": "Prof. Ratna Dewi",
-          "schedule": [
-            {
-              "day": "Senin",
-              "time": "10:50-12:30",
-              "room": "D103"
-            }
-          ],
-          "status": "ongoing"
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Kerja Praktik di Departemen Sistem Informasi Universitas Andalas"
         },
         {
-          "code": "IF3021",
-          "name": "Rekayasa Perangkat Lunak Lanjut",
-          "credits": 3,
+          "code": "IF4012",
+          "name": "Manajemen Proyek TI",
+          "credits": 2,
           "class": "A",
-          "lecturer": "Ardi Nugroho, M.Kom",
-          "schedule": [
-            {
-              "day": "Rabu",
-              "time": "13:00-14:40",
-              "room": "Lab RPL"
-            }
-          ],
-          "status": "ongoing"
-        },
-        {
-          "code": "IF3030",
-          "name": "Pembelajaran Mesin",
-          "credits": 3,
-          "class": "B",
-          "lecturer": "Dr. Dita Sari",
+          "lecturer": "Laras Widyastuti, M.Kom",
           "schedule": [
             {
               "day": "Kamis",
-              "time": "10:50-12:30",
-              "room": "C204"
+              "time": "08:00-09:40",
+              "room": "B102"
+            }
+          ],
+          "status": "ongoing"
+        },
+        {
+          "code": "IF4022",
+          "name": "Keamanan Informasi",
+          "credits": 3,
+          "class": "B",
+          "lecturer": "Ir. Indra Saputra",
+          "schedule": [
+            {
+              "day": "Selasa",
+              "time": "13:00-14:40",
+              "room": "C305"
             }
           ],
           "status": "ongoing"
         }
-      ]
-    },
-    {
-      "nim": "2411522001",
-      "name": "John",
-      "sksCompleted": 60,
-      "mandatoryCoursesCompleted": false,
-      "mkwuCompleted": true,
-      "internshipCompleted": false,
-      "kknCompleted": false,
-      "currentSemester": 3,
-      "currentSemesterCourses": [
+      ],
+      "cplScores": [
         {
-          "code": "IF2011",
-          "name": "Struktur Data",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Dr. Budi Santoso",
-          "schedule": [
-            {
-              "day": "Senin",
-              "time": "10:00-11:40",
-              "room": "C201"
-            }
-          ],
-          "status": "ongoing"
+          "code": "CPL-01",
+          "score": 75,
+          "inputAt": "2026-02-27T14:00:00.000Z"
         },
         {
-          "code": "IF2013",
-          "name": "Pemrograman Berorientasi Objek",
-          "credits": 3,
-          "class": "B",
-          "lecturer": "Ir. Raka Himawan",
-          "schedule": [
-            {
-              "day": "Selasa",
-              "time": "09:00-10:40",
-              "room": "B203"
-            }
-          ],
-          "status": "ongoing"
-        },
-        {
-          "code": "IF2015",
-          "name": "Basis Data",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Dewi Kurnia, M.Kom",
-          "schedule": [
-            {
-              "day": "Rabu",
-              "time": "13:00-14:40",
-              "room": "Lab DB"
-            }
-          ],
-          "status": "ongoing"
+          "code": "CPL-03",
+          "score": 80,
+          "inputAt": "2026-02-27T14:00:00.000Z"
         }
       ]
     },
@@ -615,6 +2141,24 @@
       "internshipCompleted": true,
       "kknCompleted": true,
       "currentSemester": 7,
+      "currentSemesterCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6,
+          "class": "",
+          "lecturer": "Afriyanti Dwi Kartika, M.T",
+          "schedule": [
+            {
+              "day": "",
+              "time": "",
+              "room": ""
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan Sistem Informasi Pembuatan Laporan Bidang Monitoring dan Penertiban pada Balai Monitor Spektrum Frenkuensi Radio Kelas II Padang"
+        }
+      ],
       "cpl": {
         "minimumScore": 55,
         "scores": [
@@ -643,24 +2187,75 @@
             "status": "passed"
           }
         ]
-      },
+      }
+    },
+    {
+      "nim": "2211522018",
+      "name": "Nabil Rizki Navisa",
+      "sksCompleted": 140,
+      "mandatoryCoursesCompleted": true,
+      "mkwuCompleted": true,
+      "internshipCompleted": true,
+      "kknCompleted": true,
+      "currentSemester": 7,
       "currentSemesterCourses": [
         {
-          "code": "JSITA",
+          "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 4,
-          "class": "",
-          "lecturer": "Husnil Kamil",
-          "nip": "198201182008121002",
-          "thesisTitle": "Rancang Bangun Sistem Informasi Akademik",
+          "credits": 6,
+          "class": "A",
+          "lecturer": "Husnil Kamil, MT",
           "schedule": [
             {
-              "day": "",
-              "time": "",
-              "room": ""
+              "day": "Selasa",
+              "time": "08:00-10:40",
+              "room": "Lab Riset"
+            }
+          ],
+          "status": "ongoing",
+          "thesisTitle": "Pembangunan SIstem Informasi Monitoring Bimbingan Tugas Akhir di Departemen Sistem Informasi Universitas Andalas"
+        },
+        {
+          "code": "IF4011",
+          "name": "Sistem Informasi Enterprise",
+          "credits": 3,
+          "class": "A",
+          "lecturer": "Dr. Ahmad Kadep",
+          "schedule": [
+            {
+              "day": "Senin",
+              "time": "13:00-14:40",
+              "room": "D102"
             }
           ],
           "status": "ongoing"
+        },
+        {
+          "code": "IF4015",
+          "name": "Pengujian Perangkat Lunak",
+          "credits": 3,
+          "class": "C",
+          "lecturer": "Diana Penguji, M.Sc",
+          "schedule": [
+            {
+              "day": "Rabu",
+              "time": "08:00-09:40",
+              "room": "Lab QA"
+            }
+          ],
+          "status": "ongoing"
+        }
+      ],
+      "cplScores": [
+        {
+          "code": "CPL-01",
+          "score": 82,
+          "inputAt": "2026-02-28T09:30:00.000Z"
+        },
+        {
+          "code": "CPL-02",
+          "score": 78,
+          "inputAt": "2026-02-28T09:30:00.000Z"
         }
       ]
     }
