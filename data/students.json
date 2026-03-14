@@ -908,7 +908,7 @@
       "sksCompleted": 140,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
-      "internshipCompleted": true,
+      "internshipCompleted": false,
       "kknCompleted": true,
       "currentSemester": 7,
       "currentSemesterCourses": [
@@ -2001,6 +2001,48 @@
             }
           ],
           "status": "ongoing"
+        }
+      ],
+      "cplScores": [
+        {
+          "code": "CPL-01",
+          "score": 78,
+          "inputAt": "2026-03-01T08:30:00.000Z"
+        },
+        {
+          "code": "CPL-02",
+          "score": 50,
+          "inputAt": "2026-03-01T08:30:00.000Z"
+        },
+        {
+          "code": "CPL-03",
+          "score": 80,
+          "inputAt": "2026-03-01T08:30:00.000Z"
+        },
+        {
+          "code": "CPL-04",
+          "score": 76,
+          "inputAt": "2026-03-01T08:30:00.000Z"
+        },
+        {
+          "code": "CPL-05",
+          "score": 79,
+          "inputAt": "2026-03-01T08:30:00.000Z"
+        },
+        {
+          "code": "CPL-06",
+          "score": 81,
+          "inputAt": "2026-03-01T08:30:00.000Z"
+        },
+        {
+          "code": "CPL-07",
+          "score": 77,
+          "inputAt": "2026-03-01T08:30:00.000Z"
+        },
+        {
+          "code": "CPL-08",
+          "score": 83,
+          "inputAt": "2026-03-01T08:30:00.000Z"
         }
       ]
     },
