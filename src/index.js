@@ -55,7 +55,8 @@ app.get("/students", tokenGuard, (req, res) => {
       mandatoryCoursesCompleted,
       mkwuCompleted,
       internshipCompleted,
-      kknCompleted
+      kknCompleted,
+      researchMethodCompleted
     }) => ({
       nim,
       name,
@@ -64,7 +65,8 @@ app.get("/students", tokenGuard, (req, res) => {
       mandatoryCoursesCompleted,
       mkwuCompleted,
       internshipCompleted,
-      kknCompleted
+      kknCompleted,
+      researchMethodCompleted
     })
   );
 
