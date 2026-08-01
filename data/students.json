@@ -994,13 +994,13 @@
       "cplScores": [
         {
           "code": "CPL-02",
-          "description": "Kemampuan untuk mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi;",
+          "description": "Kemampuan untuk mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi",
           "score": 84,
           "inputAt": "2026-02-26T10:15:00.000Z"
         },
         {
           "code": "CPL-04",
-          "description": "Kemampuan untuk berkarya dengan perilaku etika sesuai bidang keprofesian teknologi informasi;",
+          "description": "Kemampuan untuk berkarya dengan perilaku etika sesuai bidang keprofesian teknologi informasi",
           "score": 76,
           "inputAt": "2026-02-26T10:15:00.000Z"
         }
@@ -2074,49 +2074,49 @@
       "cplScores": [
         {
           "code": "CPL-01",
-          "description": "Kemampuan untuk mengidentifikasi, memformulasikan dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi;",
+          "description": "Kemampuan untuk mengidentifikasi, memformulasikan dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
           "score": 78,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
           "code": "CPL-02",
-          "description": "Kemampuan untuk mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi;",
+          "description": "Kemampuan untuk mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi",
           "score": 50,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
           "code": "CPL-03",
-          "description": "Kemampuan untuk menerapkan konsep-konsep dasar dalam merencanakan Sistem Informasi, merancang Sistem Informasi, membangun Sistem Informasi, mengoperasikan Sistem Informasi, dan mengevaluasi Sistem Informasi;",
+          "description": "Kemampuan untuk menerapkan konsep-konsep dasar dalam merencanakan Sistem Informasi, merancang Sistem Informasi, membangun Sistem Informasi, mengoperasikan Sistem Informasi, dan mengevaluasi Sistem Informasi",
           "score": 80,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
           "code": "CPL-04",
-          "description": "Kemampuan untuk berkarya dengan perilaku etika sesuai bidang keprofesian teknologi informasi;",
+          "description": "Kemampuan untuk berkarya dengan perilaku etika sesuai bidang keprofesian teknologi informasi",
           "score": 76,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
           "code": "CPL-05",
-          "description": "Kemampuan untuk berkomunikasi secara efektif pada berbagai kalangan;",
+          "description": "Kemampuan untuk berkomunikasi secara efektif pada berbagai kalangan",
           "score": 79,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
           "code": "CPL-06",
-          "description": "Kemampuan untuk melibatkan diri dalam proses belajar terus-menerus sepanjang hidup;",
+          "description": "Kemampuan untuk melibatkan diri dalam proses belajar terus-menerus sepanjang hidup",
           "score": 81,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
           "code": "CPL-07",
-          "description": "Kemampuan untuk bekerja-sama secara efektif baik sebagai anggota maupun pimpinan tim kerja;",
+          "description": "Kemampuan untuk bekerja-sama secara efektif baik sebagai anggota maupun pimpinan tim kerja",
           "score": 77,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
           "code": "CPL-08",
-          "description": "Kemampuan untuk mengidentifikasi kebutuhan untuk menjadi seorang wirausaha di bidang teknologi informasi.",
+          "description": "Kemampuan untuk mengidentifikasi kebutuhan untuk menjadi seorang wirausaha di bidang teknologi informasi",
           "score": 83,
           "inputAt": "2026-03-01T08:30:00.000Z"
         }
@@ -2242,13 +2242,13 @@
       "cplScores": [
         {
           "code": "CPL-01",
-          "description": "Kemampuan untuk mengidentifikasi, memformulasikan dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi;",
+          "description": "Kemampuan untuk mengidentifikasi, memformulasikan dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
           "score": 75,
           "inputAt": "2026-02-27T14:00:00.000Z"
         },
         {
           "code": "CPL-03",
-          "description": "Kemampuan untuk menerapkan konsep-konsep dasar dalam merencanakan Sistem Informasi, merancang Sistem Informasi, membangun Sistem Informasi, mengoperasikan Sistem Informasi, dan mengevaluasi Sistem Informasi;",
+          "description": "Kemampuan untuk menerapkan konsep-konsep dasar dalam merencanakan Sistem Informasi, merancang Sistem Informasi, membangun Sistem Informasi, mengoperasikan Sistem Informasi, dan mengevaluasi Sistem Informasi",
           "score": 80,
           "inputAt": "2026-02-27T14:00:00.000Z"
         }
@@ -2373,13 +2373,13 @@
       "cplScores": [
         {
           "code": "CPL-01",
-          "description": "Kemampuan untuk mengidentifikasi, memformulasikan dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi;",
+          "description": "Kemampuan untuk mengidentifikasi, memformulasikan dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
           "score": 82,
           "inputAt": "2026-02-28T09:30:00.000Z"
         },
         {
           "code": "CPL-02",
-          "description": "Kemampuan untuk mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi;",
+          "description": "Kemampuan untuk mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi",
           "score": 78,
           "inputAt": "2026-02-28T09:30:00.000Z"
         }
