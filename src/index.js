@@ -99,33 +99,47 @@ app.get("/students/:nim/current-courses", tokenGuard, (req, res) => {
   });
 });
 
-app.post("/sync-ta", tokenGuard, (req, res) => {
-  try {
-    const syncData = req.body.data;
-    if (!syncData || !Array.isArray(syncData)) {
-      return res.status(400).json({ success: false, message: "Format data tidak valid" });
-    }
+// Per-semester academic data (NeoCentral Paket P, plan 10.6). SIA is read only: NeoCentral never
+// writes here; titles of theses that passed Metode Penelitian leave NeoCentral as an export file.
+const ENROLLMENTS_PATH = path.join(__dirname, "..", "data", "enrollments.json");
+const loadPeriods = () => JSON.parse(fs.readFileSync(ENROLLMENTS_PATH, "utf-8")).periods;
 
-    const snapshotDir = path.join(__dirname, "..", "data", "TA snapshot");
-    if (!fs.existsSync(snapshotDir)) {
-      fs.mkdirSync(snapshotDir, { recursive: true });
-    }
-
-    const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
-    const filePath = path.join(snapshotDir, `snapshot_${timestamp}.json`);
-
-    fs.writeFileSync(filePath, JSON.stringify(syncData, null, 2), "utf-8");
-
-    res.json({
-      success: true,
-      message: "Data Tugas Akhir berhasil disinkronisasi dan disimpan sebagai snapshot",
-      filename: `snapshot_${timestamp}.json`,
-      totalRecords: syncData.length
-    });
-  } catch (error) {
-    console.error("Gagal menyimpan snapshot TA:", error);
-    res.status(500).json({ success: false, message: "Terjadi kesalahan pada server SIA" });
+const findPeriod = (req, res) => {
+  const academicYear = String(req.query.academicYear || "").trim();
+  const semester = String(req.query.semester || "").trim().toLowerCase();
+  if (!academicYear || !["ganjil", "genap"].includes(semester)) {
+    res.status(400).json({ success: false, message: "Parameter academicYear (mis. 2026/2027) dan semester (ganjil/genap) wajib diisi" });
+    return null;
   }
+  const period = loadPeriods().find((p) => p.academicYear === academicYear && p.semester === semester);
+  if (!period) {
+    res.status(404).json({ success: false, message: "Data semester tidak ditemukan" });
+    return null;
+  }
+  return period;
+};
+
+// GET /enrollments?academicYear=2026/2027&semester=ganjil
+app.get("/enrollments", tokenGuard, (req, res) => {
+  const period = findPeriod(req, res);
+  if (!period) return;
+  res.json({
+    success: true,
+    period: { academicYear: period.academicYear, semester: period.semester },
+    count: period.students.length,
+    data: period.students
+  });
+});
+
+// GET /enrollments/:nim?academicYear=2026/2027&semester=ganjil
+app.get("/enrollments/:nim", tokenGuard, (req, res) => {
+  const period = findPeriod(req, res);
+  if (!period) return;
+  const row = period.students.find((s) => s.nim === req.params.nim);
+  if (!row) {
+    return res.status(404).json({ success: false, message: "Mahasiswa tidak ditemukan pada semester ini" });
+  }
+  res.json({ success: true, period: { academicYear: period.academicYear, semester: period.semester }, data: row });
 });
 
 app.use((req, res) => {
