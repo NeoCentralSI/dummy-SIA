@@ -99,7 +99,7 @@ app.get("/students/:nim/current-courses", tokenGuard, (req, res) => {
   });
 });
 
-// Per-semester academic data (NeoCentral Paket P, plan 10.6). SIA is read only: NeoCentral never
+// Per-semester academic data. SIA is read only: NeoCentral never
 // writes here; titles of theses that passed Metode Penelitian leave NeoCentral as an export file.
 const ENROLLMENTS_PATH = path.join(__dirname, "..", "data", "enrollments.json");
 const loadPeriods = () => JSON.parse(fs.readFileSync(ENROLLMENTS_PATH, "utf-8")).periods;
