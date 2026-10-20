@@ -962,8 +962,8 @@
         {
           "nim": "2211528016",
           "studentStatus": "aktif",
-          "takesResearchMethod": false,
-          "takesThesis": true
+          "takesResearchMethod": true,
+          "takesThesis": false
         },
         {
           "nim": "2211528017",
