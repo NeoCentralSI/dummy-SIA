@@ -1,0 +1,983 @@
+{
+  "description": "Per-semester academic data read by NeoCentral (Paket P, plan 10.6): taking Metode Penelitian, taking Tugas Akhir, student status.",
+  "periods": [
+    {
+      "academicYear": "2025/2026",
+      "semester": "genap",
+      "students": [
+        {
+          "nim": "2211521020",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523020",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523018",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523016",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523014",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523010",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523008",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523006",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523004",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522037",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522035",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522034",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522030",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522024",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522022",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522016",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522010",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522008",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522006",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521014",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521012",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521010",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521008",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521006",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521004",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521002",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2111523020",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2111522011",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2011522013",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523036",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523031",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523030",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523028",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523024",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523019",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523017",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523012",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523011",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523009",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523007",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523005",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523003",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523001",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522031",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522029",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522027",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522023",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522019",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522017",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522015",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522013",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522011",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522009",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522005",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523021",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522003",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521019",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521017",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521015",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521013",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521009",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521007",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521003",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211521001",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2111523007",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522036",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522028",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523034",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211523022",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211522018",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528016",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528017",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528018",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        }
+      ]
+    },
+    {
+      "academicYear": "2026/2027",
+      "semester": "ganjil",
+      "students": [
+        {
+          "nim": "2211521020",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523020",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523018",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523016",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523014",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523010",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523008",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523006",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523004",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522037",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522035",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522034",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522030",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522024",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522022",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522016",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522010",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522008",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522006",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521014",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521012",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521010",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521008",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521006",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521004",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521002",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2111523020",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2111522011",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2011522013",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523036",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523031",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523030",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523028",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523024",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523019",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523017",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523012",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523011",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523009",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523007",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523005",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523003",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523001",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522031",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522029",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522027",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522023",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522019",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522017",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522015",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522013",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522011",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522009",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522005",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523021",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522003",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521019",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521017",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521015",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521013",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521009",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521007",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521003",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211521001",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2111523007",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522036",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522028",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523034",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211523022",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211522018",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        },
+        {
+          "nim": "2211528001",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528002",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528003",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528004",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528005",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528006",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528007",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528008",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528009",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528010",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528011",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528012",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528013",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528014",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528015",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528016",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528017",
+          "studentStatus": "aktif",
+          "takesResearchMethod": true,
+          "takesThesis": false
+        },
+        {
+          "nim": "2211528018",
+          "studentStatus": "aktif",
+          "takesResearchMethod": false,
+          "takesThesis": true
+        }
+      ]
+    }
+  ]
+}
