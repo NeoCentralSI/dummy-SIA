@@ -157,4 +157,15 @@ curl -H "x-api-token: dev-sia-token" http://localhost:4000/students
 curl -H "Authorization: Bearer dev-sia-token" "http://localhost:4000/students?page=1&pageSize=20"
 ```
 
-Untuk menguji berkas data lain tanpa mengubah `data/students.json`, jalankan dengan `SIA_DATA_PATH=/jalur/berkas.json`. Docker: `docker compose up -d` (jaringan `neocentral`).
+Untuk menguji berkas data lain tanpa mengubah `data/students.json`, jalankan dengan `SIA_DATA_PATH=/jalur/berkas.json`.
+
+## Menjalankan dengan Docker
+
+```bash
+cp .env.example .env
+docker compose up -d --build     # http://localhost:4000
+```
+
+- Backend di Docker pada mesin yang sama: `SIA_BASE_URL=http://host.docker.internal:4000`.
+- Bawaannya port terbuka di `0.0.0.0` (`DUMMY_SIA_BIND`). Port Docker tidak ditutup oleh UFW. Agar tidak terbuka ke internet, isi `DUMMY_SIA_BIND` dengan alamat `docker0` (biasanya `172.17.0.1`). `127.0.0.1` tidak bisa dijangkau container backend.
+- `data/students.json` ikut masuk ke image. Setelah diubah, jalankan ulang `docker compose up -d --build`.
