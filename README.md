@@ -111,7 +111,7 @@ NeoCentral mengulang permintaan yang gagal hingga 3 kali dengan jeda, dan member
 
 ## Cara NeoCentral memakainya
 
-Penjelasan dari sisi backend ada di [`backend/src/docs/sia-sync.md`](../backend/src/docs/sia-sync.md).
+Penjelasan dari sisi backend ada di [`backend/src/docs/sia-sync.md`](https://github.com/NeoCentralSI/services/blob/main/src/docs/sia-sync.md).
 
 - **Kapan**: Admin menekan **Sinkronkan SIA** di Data Mahasiswa, dan sinkronisasi terjadwal harian (bila cron backend aktif).
 - **Pencocokan**: berdasarkan **NIM**. NIM yang tidak ada di NeoCentral dihitung "tidak ditemukan".
