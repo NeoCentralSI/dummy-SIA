@@ -6,144 +6,75 @@ import { fileURLToPath } from "url";
 
 dotenv.config();
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const PORT = process.env.PORT || 4000;
 const API_TOKEN = process.env.API_TOKEN || "dev-sia-token";
-const DATA_PATH = path.join(__dirname, "..", "data", "students.json");
+const DATA_PATH = process.env.SIA_DATA_PATH || path.join(__dirname, "..", "data", "students.json");
 
-// Load data once at startup; can be replaced with DB later.
-const loadStudents = () => JSON.parse(fs.readFileSync(DATA_PATH, "utf-8")).students;
+// Read on every request, so an edit of the file shows at the next sync without a restart.
+const loadData = () => JSON.parse(fs.readFileSync(DATA_PATH, "utf-8"));
 
 const app = express();
-app.use(express.json());
 
 const tokenGuard = (req, res, next) => {
   const headerToken = req.headers["x-api-token"];
   const bearer = req.headers.authorization || "";
   const bearerToken = bearer.startsWith("Bearer ") ? bearer.slice(7) : null;
   const token = headerToken || bearerToken;
-
   if (!token || token !== API_TOKEN) {
-    return res.status(401).json({
-      success: false,
-      message: "Unauthorized: invalid or missing token"
-    });
+    return res.status(401).json({ success: false, message: "Token tidak valid atau tidak dikirim" });
   }
   next();
+};
+
+const positiveInt = (value) => {
+  if (value === undefined) return undefined;
+  const n = Number(value);
+  return Number.isInteger(n) && n > 0 ? n : null;
 };
 
 app.get("/health", (req, res) => {
   res.json({ status: "ok", time: new Date().toISOString() });
 });
 
+/**
+ * GET /students: the academic records of the running semester.
+ * Without `page`/`pageSize` every record is returned; with them, one page and `pagination`.
+ */
 app.get("/students", tokenGuard, (req, res) => {
-  const students = loadStudents();
-  const full = String(req.query.full || "").toLowerCase() === "true";
-
-  if (full) {
-    return res.json({ success: true, count: students.length, data: students });
+  const page = positiveInt(req.query.page);
+  const pageSize = positiveInt(req.query.pageSize);
+  if (page === null || pageSize === null || (pageSize !== undefined && pageSize > 1000)) {
+    return res.status(400).json({ success: false, message: "Parameter page dan pageSize harus bilangan bulat positif (pageSize maksimal 1000)" });
   }
 
-  const summaries = students.map(
-    ({
-      nim,
-      name,
-      sksCompleted,
-      currentSemester,
-      mandatoryCoursesCompleted,
-      mkwuCompleted,
-      internshipCompleted,
-      kknCompleted,
-      researchMethodCompleted
-    }) => ({
-      nim,
-      name,
-      sksCompleted,
-      currentSemester,
-      mandatoryCoursesCompleted,
-      mkwuCompleted,
-      internshipCompleted,
-      kknCompleted,
-      researchMethodCompleted
-    })
-  );
-
-  res.json({ success: true, count: summaries.length, data: summaries });
-});
-
-app.get("/students/:nim", tokenGuard, (req, res) => {
-  const students = loadStudents();
-  const student = students.find((s) => s.nim === req.params.nim);
-  if (!student) {
-    return res.status(404).json({ success: false, message: "Mahasiswa tidak ditemukan" });
+  let data;
+  try {
+    data = loadData();
+  } catch (err) {
+    return res.status(500).json({ success: false, message: `Data SIA tidak dapat dibaca: ${err.message}` });
   }
-  res.json({ success: true, data: student });
-});
+  const students = data.students ?? [];
 
-app.get("/students/:nim/current-courses", tokenGuard, (req, res) => {
-  const students = loadStudents();
-  const student = students.find((s) => s.nim === req.params.nim);
-  if (!student) {
-    return res.status(404).json({ success: false, message: "Mahasiswa tidak ditemukan" });
+  if (page === undefined && pageSize === undefined) {
+    return res.json({ success: true, period: data.period, count: students.length, data: students });
   }
+
+  const size = pageSize ?? 100;
+  const current = page ?? 1;
+  const slice = students.slice((current - 1) * size, current * size);
   res.json({
     success: true,
-    data: {
-      nim: student.nim,
-      name: student.name,
-      currentSemester: student.currentSemester,
-      courses: student.currentSemesterCourses
-    }
+    period: data.period,
+    count: slice.length,
+    data: slice,
+    pagination: { page: current, pageSize: size, total: students.length, totalPages: Math.max(1, Math.ceil(students.length / size)) },
   });
-});
-
-// Per-semester academic data. SIA is read only: NeoCentral never
-// writes here; titles of theses that passed Metode Penelitian leave NeoCentral as an export file.
-const ENROLLMENTS_PATH = path.join(__dirname, "..", "data", "enrollments.json");
-const loadPeriods = () => JSON.parse(fs.readFileSync(ENROLLMENTS_PATH, "utf-8")).periods;
-
-const findPeriod = (req, res) => {
-  const academicYear = String(req.query.academicYear || "").trim();
-  const semester = String(req.query.semester || "").trim().toLowerCase();
-  if (!academicYear || !["ganjil", "genap"].includes(semester)) {
-    res.status(400).json({ success: false, message: "Parameter academicYear (mis. 2026/2027) dan semester (ganjil/genap) wajib diisi" });
-    return null;
-  }
-  const period = loadPeriods().find((p) => p.academicYear === academicYear && p.semester === semester);
-  if (!period) {
-    res.status(404).json({ success: false, message: "Data semester tidak ditemukan" });
-    return null;
-  }
-  return period;
-};
-
-// GET /enrollments?academicYear=2026/2027&semester=ganjil
-app.get("/enrollments", tokenGuard, (req, res) => {
-  const period = findPeriod(req, res);
-  if (!period) return;
-  res.json({
-    success: true,
-    period: { academicYear: period.academicYear, semester: period.semester },
-    count: period.students.length,
-    data: period.students
-  });
-});
-
-// GET /enrollments/:nim?academicYear=2026/2027&semester=ganjil
-app.get("/enrollments/:nim", tokenGuard, (req, res) => {
-  const period = findPeriod(req, res);
-  if (!period) return;
-  const row = period.students.find((s) => s.nim === req.params.nim);
-  if (!row) {
-    return res.status(404).json({ success: false, message: "Mahasiswa tidak ditemukan pada semester ini" });
-  }
-  res.json({ success: true, period: { academicYear: period.academicYear, semester: period.semester }, data: row });
 });
 
 app.use((req, res) => {
-  res.status(404).json({ success: false, message: "Route not found" });
+  res.status(404).json({ success: false, message: "Rute tidak ditemukan" });
 });
 
 app.listen(PORT, () => {

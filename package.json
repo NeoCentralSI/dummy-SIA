@@ -1,7 +1,7 @@
 {
   "name": "sia",
   "version": "1.0.0",
-  "description": "Sistem informasi akademik dummy dengan data lokal JSON dan proteksi token.",
+  "description": "Tiruan SIA hanya-baca: GET /students rekam akademik semester berjalan, dengan token.",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
