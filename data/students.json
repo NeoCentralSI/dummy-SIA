@@ -1,1006 +1,741 @@
 {
+  "period": {
+    "academicYear": "2026/2027",
+    "semester": "ganjil"
+  },
   "students": [
     {
       "nim": "2211521020",
       "name": "Muhammad Nouval Habibie",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.6,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "A",
-          "lecturer": "Husnil Kamil, MT",
-          "schedule": [
-            {
-              "day": "Selasa",
-              "time": "08:00-10:40",
-              "room": "Lab Riset"
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Lab di Departemen Sistem Informasi Universitas Andalas"
+          "credits": 6
         },
         {
           "code": "IF4015",
           "name": "Pengujian Perangkat Lunak",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Diana Penguji, M.Sc",
-          "schedule": [
-            {
-              "day": "Rabu",
-              "time": "10:50-12:30",
-              "room": "Lab QA"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 3
         },
         {
           "code": "IF4022",
           "name": "Keamanan Informasi",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Ir. Indra Saputra",
-          "schedule": [
-            {
-              "day": "Kamis",
-              "time": "13:00-14:40",
-              "room": "C305"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 3
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523020",
       "name": "Laura Iffa Razitta",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.6,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Rahmatika Pratama Santi, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Rancang Bangun Sistem Informasi Ticketing Helpdesk Berbasis Web pada PT. Pelabuhan Indonesia (PERSERO) Regional II"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523018",
       "name": "Najwa Nur Faizah",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.86,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Jefril Rahmadoni, M. Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Simpan Pinjam Syariah Koperasi Fakultas Teknik Universitas Andalas",
-          "lecturer2": "Rahmatika Pratama Santi, M.T."
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523016",
       "name": "Zhafira Syarafina",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.22,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ricky Akbar M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Pendukung Keputusan Penentuan Tingkat Keparahan dan Rekomendasi Penanganan Penyakit Lupus Menggunakan Bayesian Network (Studi Kasus RSUP DR. M. Djamil Padang)"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523014",
       "name": "Rania Shofi Malika",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.58,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Afriyanti Dwi Kartika, M.T",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Pengaduan Layanan Teknologi INformasi Berbasis Web pada Dinas Komunikasi dan Informatika Kota Padang"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523010",
       "name": "Azhra Meisa Khairani",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.2,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Jefril Rahmadoni, M. Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Penunjang Keputusan Evaluasi Tumbuh Kembang Anak Usia Dini Menggunakan Metode Fuzzy Simple Multi-Attribute Rating Technique pada TK Negeri Pembina Padang Panjang",
-          "lecturer2": "Rahmatika Pratama Santi, M.T."
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523008",
       "name": "Heni Yunida",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.56,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ullya Mega Wahyuni, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Persuratan Berbasis Web dengan Fitur Otomatisasi Disposisi dan Agenda Elektronik pada Dinas Perumahan Kawaban Permukiman dan Lingkungan Hidup Kabupaten Solok Selatan"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523006",
       "name": "Sistri Mahira",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.82,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Hasdi Putra, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Evaluasi Efektifitas Sistem Informasi Pengelolaan Dana Zakat, Infaq, dan Sedekah untuk Meningkatkan Transparanasi dan Akuntabilitas pada BAZNAS Kabupaten Zolok Selatan"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523004",
       "name": "Fajrin Putra Pratama",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.18,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Jefril Rahmadoni, M. Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Alur Kerja Terintegrasi: Rekapitulasi Booking, Kolaborasi Pasca Produksi, dan Penggajian pada Alter Studio"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522037",
       "name": "Muhammad Dani Noar",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.29,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Haris Suryamen, M.Sc.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Posyandu Integrasi Layanan Primer (ILP) Berbasis Web untuk Optimalisasi Pelaporan E-PPGBM di Puskesmas Muaro Bodi",
-          "lecturer2": "Adi Arga Arifnur, M.Kom"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522035",
       "name": "Akram Makruf Aidil",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.65,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Hasdi Putra, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pengelolaan Asistensi Agama Islam (Studi Kasus: Universitas Andalas)"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522034",
       "name": "Anastasya Estu Wahyudi",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.28,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ullya Mega Wahyuni, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pelaporan Kinerja Berbasis Web pada BAPPEDA Kabupaten Sijunjung"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522030",
       "name": "Isra Rahma Dina",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.9,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ullya Mega Wahyuni, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pelaporan Produksi dan Penjualan Madu Galo-Galo pada Kelompok Binaan UPTD KPHL Bukit Barisan"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522024",
       "name": "Miftahul Janah",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.88,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Afriyanti Dwi Kartika, M.T",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Donasi dan Monitoring Bibit Pohon pada Komunitas Konservasi Indonesia WARSI"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522022",
       "name": "Azizah Novi Delfianti",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.24,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ricky Akbar M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Aplikasi Pengelolaan Penyaluran Infaq Melalui Penjualan Barang dengan Memanfaatkan Model Bisnis Marketplace Berbasis Website pada UPZ Unand"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522016",
       "name": "Vioni Wijaya Putri",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.22,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Rahmatika Pratama Santi, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Rancang Bangun Sistem Informasi Pengelolaan Inventaris, Peminjaman Ruangan dan Kendaraan Berbasis Web dengan Integrasi Single Sign On (SSO) pada Dinas Lingkungan Hidup Provinsi Sumatera Barat"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522010",
       "name": "Fadli Hidayat",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.2,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Hasdi Putra, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Akademik Berbasis Web dengan Algoritma Hybrid CP-SAT + GA untuk Penjadwalan Otomatis di SMA N Hiliran Gumanti"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522008",
       "name": "Triana Zahara Nurhaliza",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.56,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ricky Akbar M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Rancang Bangun Sistem Informasi Tindak Lanjut Hasil Pemeriksanaan (TLHP) berbasis Web pada Inspektorat Kota Bukittinggi"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522006",
       "name": "Ruchil Amelinda",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.82,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Hasdi Putra, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pengembangan Sistem Informasi Pelaporan Terintegrasi Dashboard Bussiness Intelligence Studi Kasus Gudang Farmasi Rumah Sakit Universitas Andalas"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521014",
       "name": "Izza Try Malinda",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.58,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Afriyanti Dwi Kartika, M.T",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pendaftaran dan Pengelolaan umroh Berbasis Web pada Ardaya Travel"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521012",
       "name": "Rizka Kurnia Illahi",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.84,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ricky Akbar M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pengelolaan Keuangan Informasi Kegiatan, Qurban, dan Administrasi MDTA Masjid Al-Furqon Kota Solok"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521010",
       "name": "Dhiya Gustita Aqila",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.2,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ricky Akbar M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Penunjang Keputusan untuk Merekomendasikan Diagnosis Awal Penyakit Gagal Ginjal Kronik Menggunakan Metode KNN Pada Rumah Sakit DKT Kerinci"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521008",
       "name": "Naufal Adli Dhiaurrahman",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.56,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ullya Mega Wahyuni, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Dashboard Bussiness Intelligence Rekomendasi Negara Tujuan Exchange Participants Menggunakan Machine Learning pada AIESEC UNAND",
-          "lecturer2": "Aina Hubby Aziira, M.Eng"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521006",
       "name": "Najla Nadiva",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.82,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ricky Akbar M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Pendukung Keputusan Pemiilihan Gedung dan Ballroom Hotel untuk Venue resepsi Pernikahan Terbaik di Kota Bukittinggi Menggunakan Metode SMART (Studi Kasus Fakhira Pelainan)"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521004",
       "name": "Nadia Deari Hanifah",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.18,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Afriyanti Dwi Kartika, M.T",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Agenda Pimpinan Berbasis Website pada Bagian Protokol dan Komunikasi Pimpinan Sekretariat Daerah Kota Padang"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521002",
       "name": "Najla Humaira Desni",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.54,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Rahmatika Pratama Santi, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Dashboard Bussiness Intelligence dengan Forecasting pada Data Penjualan Apotek Makmur Mandiri Kota Pariaman Menggunakan Framework Dash"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2111523020",
       "name": "Dio Apri Dandi",
+      "enrollmentYear": 2021,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.6,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Aina Hubby Aziira, M.Eng",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Implementasi Bussiness Intelligence untuk Analisis Penjualan menggunakan Dashboard, Forecasting, dan Clusterinf (Studi Kasus: Zero Ponsel)"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2111522011",
       "name": "Annisa Gita Subhi",
+      "enrollmentYear": 2021,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.57,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ricky Akbar M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Pendukung Keputusan Dalam menentukan Prioritas Program Pembangunan di Nagari Tanjung Beringin Menggunakan Metode Vikor"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2011522013",
       "name": "Jahro Suroyo Taurin",
+      "enrollmentYear": 2020,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.21,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Haris Suryamen, M.Sc.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pendaftaran Magang dan Penelitian Berbasis Website di Permda Air Minum Kota Padang"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523036",
       "name": "Nabila R. Dzakira",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.92,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ullya Mega Wahyuni, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Penerapan Bussiness Intelligence Berbasis Dashboard dengan Fitur Forecasting dalam Monitoring Stabilitas Harga Bapokting pada Dinas Perdagangan Kota Padang"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523031",
       "name": "Muhammad Zaki Andafi",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.27,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ullya Mega Wahyuni, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Produksi ready Mix untuk Proses Pemesanan dan Manajemen Stok Berbasis QR-Code pada PT Panca Mulia Beton"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523030",
       "name": "Khalied Nauly Maturino",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.9,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": false,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "A",
-          "lecturer": "Husnil Kamil, MT",
-          "schedule": [
-            {
-              "day": "Selasa",
-              "time": "08:00-10:40",
-              "room": "Lab Riset"
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Rancang Bangun Sistem Informasi Beasiswa Non-APBN di Direktorat Kemahasiswaan Univeritas Andalas"
+          "credits": 6
         },
         {
           "code": "IF4010",
           "name": "Sistem Terdistribusi",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Dr. Raka Himawan",
-          "schedule": [
-            {
-              "day": "Senin",
-              "time": "09:00-10:40",
-              "room": "D201"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 3
         },
         {
           "code": "IF4023",
           "name": "Etika Profesional TI",
-          "credits": 2,
-          "class": "A",
-          "lecturer": "Yusuf Rahman, M.T.",
-          "schedule": [
-            {
-              "day": "Jumat",
-              "time": "09:00-10:40",
-              "room": "A204"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 2
         }
       ],
       "cplScores": [
         {
-          "code": "CPL-02",
-          "description": "Kemampuan untuk mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi",
+          "cplCode": "CPL-02",
+          "description": "Mengintegrasikan solusi berbasis teknologi informasi secara efektif pada organisasi",
           "score": 84,
           "inputAt": "2026-02-26T10:15:00.000Z"
         },
         {
-          "code": "CPL-04",
-          "description": "Kemampuan untuk berkarya dengan perilaku etika sesuai bidang keprofesian teknologi informasi",
+          "cplCode": "CPL-04",
+          "description": "Berkarya dengan perilaku etika sesuai bidang keprofesian teknologi informasi",
           "score": 76,
           "inputAt": "2026-02-26T10:15:00.000Z"
         }
@@ -1009,1114 +744,820 @@
     {
       "nim": "2211523028",
       "name": "Muhammad Faiz Al-Dzikro",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.26,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ullya Mega Wahyuni, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Penjualan dan Manajemen Stok Multi-Cabang Berbasis Web pada Toko Pakaian Grand Citra Levi's"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523024",
       "name": "Meutia Dewi Putri Kartika",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.88,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Hafizah Hanim, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Layanan Laboratorium Lingkungan pada Dinas Lingkungan Hidup Provinsi Sumatera Barat"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523019",
       "name": "Niken Khalilah Hamuti",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.23,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Dwi Welly Sukma Nirad, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Penerapan Bussines Intelligence dengan Dashboard Forecasting dan Clustering pada Data Transaksi Toko Nusantara Ritel Multi Cabang Berbasis Streamlit"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523017",
       "name": "Vatya Arsha Mahmudi",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.59,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Dwi Welly Sukma Nirad, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Penerapan Bussines Intelligence dengan Dashboard Forecasting dan Clustering pada Data Transaksi Toko Nusantara Ritel Multi Cabang Berbasis Streamlit"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523012",
       "name": "Syauqi Nabiih Marwa",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 120,
+      "gpa": 2.84,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "A",
-          "lecturer": "Ricky Akbar M.Kom",
-          "schedule": [
-            {
-              "day": "Senin",
-              "time": "09:00-10:40",
-              "room": "D201"
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi menotoring Kegiatan Pembinaan Karakter Mahasiswa Berbasis Web di Asrama Universitas Andalas"
+          "credits": 6
         },
         {
           "code": "IF4010",
           "name": "Sistem Terdistribusi",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Dr. Raka Himawan",
-          "schedule": [
-            {
-              "day": "Senin",
-              "time": "09:00-10:40",
-              "room": "D201"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 3
         },
         {
           "code": "IF4011",
           "name": "Sistem Informasi Enterprise",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Dr. Ahmad Kadep",
-          "schedule": [
-            {
-              "day": "Selasa",
-              "time": "13:00-14:40",
-              "room": "D102"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 3
         },
         {
           "code": "IF4015",
           "name": "Pengujian Perangkat Lunak",
-          "credits": 3,
-          "class": "B",
-          "lecturer": "Diana Penguji, M.Sc",
-          "schedule": [
-            {
-              "day": "Rabu",
-              "time": "08:00-09:40",
-              "room": "Lab QA"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 3
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523011",
       "name": "Tegar Ananda",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.57,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ullya Mega Wahyuni, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pendaftaran Umroh Berbasis Web dengan Integrasi Chatbot Assistant pada Bonita Umroh"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523009",
       "name": "Athaya Clara Diva",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.83,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Afriyanti Dwi Kartika, M.T",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Rekapitulasi Pelaporan Pasien Hipertensi Berbasis Web pada Puskesma IV Koto Kabupaten Agam"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523007",
       "name": "Cindy Arwinda Putri",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.19,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Hasdi Putra, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Penerapan Konsep Data-Dwriven Governance Melalui Sistem Informasi Nagari Mendukung Transformasi Digital Pemerintahan di Nagari Lubuk Gadang"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523005",
       "name": "Intan Salma Denaidy",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.55,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Hasdi Putra, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Inventaris untuk Layanan Pengelolaan dan Peminjaman Alat Laboratorium Penelitian Fakultas Farmasi Universitas Andalas dengan Pendekatan BPM Capability Model"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523003",
       "name": "Regina Nathamiya Pramija",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.81,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ullya Mega Wahyuni, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Perencanaan dan Implementasi Sistem Informasi Manajemen Karyawan Berbasis Web dengan Integrasi Absesnsi Berbasis Validasi Lokasi dan Penggajian Otomatis Menggunakan Metode Waterfall pada PT.Citra Bangun Nagari"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523001",
       "name": "Wulandari Yulianis",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.17,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Hasdi Putra, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Monitoring dan Evaluasi Pembangunan di Nagari Sungai Batang berbasis Web dengan E-Government Maturity Model"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522031",
       "name": "Muhammad Raihan Alghifari",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.27,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Hasdi Putra, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pengelolan Gudang Rumah Sakit dengan Fitur Early Warning dan Tracking Stock Gudang pada Rumah Sakit Universitas Andalas"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522029",
       "name": "Ari Raihan Dafa",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.63,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ullya Mega Wahyuni, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Perizinan Santri Insan Cendekia Boarding School Payakumbuh"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522027",
       "name": "Aqima Adalahita",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.89,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Rahmatika Pratama Santi, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Implementasi Bussiness Intelligence untuk Analisis Data Realisasi Anggaran Satuan Kerja (Studi Kasus: Kanwil DJPb Provinsi Sumatera Barat)"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522023",
       "name": "Talitha Zulfa Amirah",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.61,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ricky Akbar M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Rancangan Bangun Sistem Informasi Manajemen Tempat Kursus pada Palapa Computer Batusangkar Berbasis Web"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522019",
       "name": "Angeli Putri Ramadhani",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.23,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Dwi Welly Sukma Nirad, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan SPK Penentuan Prioritas Pengecekan Draft Berita Menggunakan Metode Simple Multi-Attribute Rating Technique dengan Dukungan Proses Manajemen Draft Berita di Tribun Sumbar"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522017",
       "name": "Zelfitrio Rodeski",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.59,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ullya Mega Wahyuni, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Sistem Pendukung Keputusan Diagnosa Kerusakan Handphone Berbasis Rule-Based Reasoning dan Pembookingan Layanan Repair (Studi Kasus: Chi Cha Mobile)"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522015",
       "name": "Oktaviani Andrianti",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.85,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ricky Akbar M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Pendukung Keputusan untuk Rekomendasi MPASI Seimbang Bayi Usia 6-12 Bulan Menggunakan Metode Naïve Bayes dan Vikor"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522013",
       "name": "Benni Putra Chaniago",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.21,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Dwi Welly Sukma Nirad, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pengembangan dan Implementasi Sistem Prediksi Kebutuhan Obat dan Alat Kesehatan Berbasis Web Menggunakan Algoritma LSTM (Studi Kasus: Puskesmas Situjuh)",
-          "lecturer2": "Febby Apri Wenando, M.Eng"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522011",
       "name": "Ghifari Rizki Ramadhan",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.57,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Jefril Rahmadoni, M. Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Rancangan Bangun Sistem Monitoring Truk Berbasis Web dengan Fitur GPS pada PT Harry Tridarma",
-          "lecturer2": "Rahmatika Pratama Santi, M.T."
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522009",
       "name": "Ramadhani Safitri",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.83,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Rahmatika Pratama Santi, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pengelolaan Bank Sampah Berbasis Mobile dan Web dengan Arsitektur Multi-level dan Dual Reward System pada Pusat Pengelolaan Sampah Terpadu Universitas Andalas",
-          "lecturer2": "Jefril Rahmadoni, M. Kom"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522005",
       "name": "Radiatul Mutmainnah",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.55,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Febby Apri Wenando, M.Eng",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Laporan Kegatan Bulanan Siswa Menggunakan Natural Language Processing dengan Algoritma Random Forest untuk Analisis Pola Perkembangan Anak di Sekolah Anak Usia Dini"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523021",
       "name": "Muhammad Farhan",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.87,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Hasdi Putra, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Keuangan dan Kenggotaan Koperasi Berbasis Web dengan Komunikasi Real-Time Menggunakan Websocket di PT Nichias Sunijaya"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522003",
       "name": "Frizqya Dela Pratiwi",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.81,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ullya Mega Wahyuni, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pelaporan Data Terpilah Gender dan Anak Berbasis Web pada Dinas Sosial, Pembedayaan Perempuan dan Perlindungan Anak Kabupaten Pesisir Selatan"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521019",
       "name": "Umar Abdullah Azzam",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.23,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Jefril Rahmadoni, M. Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Sekolah Menggunakan ERP Odoo pada SMA IT Latansa Cendekia",
-          "lecturer2": "Ullya Mega Wahyuni, M.Kom"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521017",
       "name": "Ghina Anfasha Nurhadi",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.59,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Afriyanti Dwi Kartika, M.T",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Perencanaa, Evaluasi dan Penilaian Pembelajaran Berbasis Web pada SMP Negeri 4 X Koto"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521015",
       "name": "Nurul Afani",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.85,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ricky Akbar M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pendukung Keputusan untuk Merekomendasikan Sekolah Ramah Anak di Kota Sawahlunto Menggunakan Metode Waspas pada Dinas Sosial Pemberdayaan Masyarakat"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521013",
       "name": "Meydiva Intayeza",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.21,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Hasdi Putra, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pengembangan Sistem Informasi Manajemen Aset Berbasis Web dengan Analisis Depresiasi dan Kelayakan Aset (Studi Kasus: Rumah Sakit universitas  Andalas)"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521009",
       "name": "Miftahul Khaira",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.83,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Dwi Welly Sukma Nirad, M.T.",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pengembangan Sistem Analisis Topik Metadata Video Instagram Berbasis Bertopic untuk Medukung Strategi Penerbitan Berita di Padang TV",
-          "lecturer2": "Febby Apri Wenando, M.Eng"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521007",
       "name": "Annisa Nurul Hakim",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.19,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Afriyanti Dwi Kartika, M.T",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pengelolaan Stok dan Distribusi Obat Berbasis Web pada Apotek Bintang Ilahi"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521003",
       "name": "Mhd. Ulil Abshar",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.81,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Husnil Kamil, MT",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pengelolaan Standar Operasional Prosedur Berbasis Web Pada Sekretariat Daerah Biro Organisasi Provinsi Sumatera Barat"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211521001",
       "name": "Rahma Aurelia Zami",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.17,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Ullya Mega Wahyuni, M.Kom",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Sistem Pendukung Keputusan untuk Identifikasi Risiko Putus Sekolah dan Rekomendasi Tindak Lanjut Menggunakan Fuzzy Logic pada SDN 11 Kampung Batu Dalam"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2111523007",
       "name": "Muhammad Ikhlas",
+      "enrollmentYear": 2021,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.19,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Aina Hubby Aziira, M.Eng",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Implementasi Bussiness Intelligence Berbasis Sistem Dashboard Fitur Forecasting, Clustering, dan Scheduler pada Data Pengiriman PT. Satria Antaran Prime TBK (Cabang Padang)"
+          "credits": 6
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211522036",
       "name": "Mustafa Fathur Rahman",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.92,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "B",
-          "lecturer": "Husnil Kamil, MT",
-          "schedule": [
-            {
-              "day": "Rabu",
-              "time": "10:50-13:30",
-              "room": "Lab Riset"
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Seminar Sidang Tugas Akhir dan Yudisium di Departemen Sistem Informasi Universitas Andalas"
+          "credits": 6
         },
         {
           "code": "IF4011",
           "name": "Sistem Informasi Enterprise",
-          "credits": 3,
-          "class": "B",
-          "lecturer": "Dr. Ahmad Kadep",
-          "schedule": [
-            {
-              "day": "Selasa",
-              "time": "13:00-14:40",
-              "room": "D102"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 3
         },
         {
           "code": "IF4035",
           "name": "Manajemen Proyek TI",
-          "credits": 2,
-          "class": "A",
-          "lecturer": "Laras Widyastuti, M.Kom",
-          "schedule": [
-            {
-              "day": "Kamis",
-              "time": "08:00-09:40",
-              "room": "B102"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 2
         }
       ],
       "cplScores": [
         {
-          "code": "CPL-01",
-          "description": "Kemampuan untuk mengidentifikasi, memformulasikan dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
+          "cplCode": "CPL-01",
+          "description": "Mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi organisasi",
           "score": 78,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
-          "code": "CPL-02",
-          "description": "Kemampuan untuk mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi",
+          "cplCode": "CPL-02",
+          "description": "Mengintegrasikan solusi berbasis teknologi informasi secara efektif pada organisasi",
           "score": 50,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
-          "code": "CPL-03",
-          "description": "Kemampuan untuk menerapkan konsep-konsep dasar dalam merencanakan Sistem Informasi, merancang Sistem Informasi, membangun Sistem Informasi, mengoperasikan Sistem Informasi, dan mengevaluasi Sistem Informasi",
+          "cplCode": "CPL-03",
+          "description": "Merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
           "score": 80,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
-          "code": "CPL-04",
-          "description": "Kemampuan untuk berkarya dengan perilaku etika sesuai bidang keprofesian teknologi informasi",
+          "cplCode": "CPL-04",
+          "description": "Berkarya dengan perilaku etika sesuai bidang keprofesian teknologi informasi",
           "score": 76,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
-          "code": "CPL-05",
-          "description": "Kemampuan untuk berkomunikasi secara efektif pada berbagai kalangan",
+          "cplCode": "CPL-05",
+          "description": "Berkomunikasi secara efektif pada berbagai kalangan",
           "score": 79,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
-          "code": "CPL-06",
-          "description": "Kemampuan untuk melibatkan diri dalam proses belajar terus-menerus sepanjang hidup",
+          "cplCode": "CPL-06",
+          "description": "Melibatkan diri dalam proses belajar terus-menerus sepanjang hidup",
           "score": 81,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
-          "code": "CPL-07",
-          "description": "Kemampuan untuk bekerja-sama secara efektif baik sebagai anggota maupun pimpinan tim kerja",
+          "cplCode": "CPL-07",
+          "description": "Bekerja sama secara efektif sebagai anggota maupun pimpinan tim",
           "score": 77,
           "inputAt": "2026-03-01T08:30:00.000Z"
         },
         {
-          "code": "CPL-08",
-          "description": "Kemampuan untuk mengidentifikasi kebutuhan untuk menjadi seorang wirausaha di bidang teknologi informasi",
+          "cplCode": "CPL-08",
+          "description": "Mengidentifikasi kebutuhan untuk menjadi wirausaha di bidang teknologi informasi",
           "score": 83,
           "inputAt": "2026-03-01T08:30:00.000Z"
         }
@@ -2125,130 +1566,75 @@
     {
       "nim": "2211522028",
       "name": "Ilham Nofaldi",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.26,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "B",
-          "lecturer": "Husnil Kamil, MT",
-          "schedule": [
-            {
-              "day": "Rabu",
-              "time": "10:50-13:30",
-              "room": "Lab Riset"
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Proposal Tugas Akhir di Departemen Sistem Informasi Universitas Andalas"
+          "credits": 6
         },
         {
           "code": "IF4010",
           "name": "Sistem Terdistribusi",
-          "credits": 3,
-          "class": "B",
-          "lecturer": "Dr. Raka Himawan",
-          "schedule": [
-            {
-              "day": "Senin",
-              "time": "13:00-14:40",
-              "room": "D201"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 3
         },
         {
           "code": "IF4023",
           "name": "Etika Profesional TI",
-          "credits": 2,
-          "class": "B",
-          "lecturer": "Yusuf Rahman, M.T.",
-          "schedule": [
-            {
-              "day": "Jumat",
-              "time": "13:00-14:40",
-              "room": "A204"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 2
         }
-      ]
+      ],
+      "cplScores": []
     },
     {
       "nim": "2211523034",
       "name": "Muhammad Fariz",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.28,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "B",
-          "lecturer": "Husnil Kamil, MT",
-          "schedule": [
-            {
-              "day": "Rabu",
-              "time": "10:50-13:30",
-              "room": "Lab Riset"
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Manajemen Kerja Praktik di Departemen Sistem Informasi Universitas Andalas"
+          "credits": 6
         },
         {
           "code": "IF4012",
           "name": "Manajemen Proyek TI",
-          "credits": 2,
-          "class": "A",
-          "lecturer": "Laras Widyastuti, M.Kom",
-          "schedule": [
-            {
-              "day": "Kamis",
-              "time": "08:00-09:40",
-              "room": "B102"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 2
         },
         {
           "code": "IF4022",
           "name": "Keamanan Informasi",
-          "credits": 3,
-          "class": "B",
-          "lecturer": "Ir. Indra Saputra",
-          "schedule": [
-            {
-              "day": "Selasa",
-              "time": "13:00-14:40",
-              "room": "C305"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 3
         }
       ],
       "cplScores": [
         {
-          "code": "CPL-01",
-          "description": "Kemampuan untuk mengidentifikasi, memformulasikan dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
+          "cplCode": "CPL-01",
+          "description": "Mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi organisasi",
           "score": 75,
           "inputAt": "2026-02-27T14:00:00.000Z"
         },
         {
-          "code": "CPL-03",
-          "description": "Kemampuan untuk menerapkan konsep-konsep dasar dalam merencanakan Sistem Informasi, merancang Sistem Informasi, membangun Sistem Informasi, mengoperasikan Sistem Informasi, dan mengevaluasi Sistem Informasi",
+          "cplCode": "CPL-03",
+          "description": "Merencanakan, merancang, membangun, mengoperasikan, dan mengevaluasi sistem informasi",
           "score": 80,
           "inputAt": "2026-02-27T14:00:00.000Z"
         }
@@ -2257,133 +1643,459 @@
     {
       "nim": "2211523022",
       "name": "Daffa Agustian Saadi",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 3.24,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "",
-          "lecturer": "Afriyanti Dwi Kartika, M.T",
-          "schedule": [
-            {
-              "day": "",
-              "time": "",
-              "room": ""
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan Sistem Informasi Pembuatan Laporan Bidang Monitoring dan Penertiban pada Balai Monitor Spektrum Frenkuensi Radio Kelas II Padang"
+          "credits": 6
         }
       ],
-      "cpl": {
-        "minimumScore": 55,
-        "scores": [
-          {
-            "cplCode": "CPL-1",
-            "description": "Description for CPL-1",
-            "score": 80,
-            "status": "passed"
-          },
-          {
-            "cplCode": "CPL-1",
-            "description": "Description for CPL-1",
-            "score": 80,
-            "status": "passed"
-          },
-          {
-            "cplCode": "CPL-1",
-            "description": "Description for CPL-1",
-            "score": 80,
-            "status": "passed"
-          },
-          {
-            "cplCode": "CPL-1",
-            "description": "Description for CPL-1",
-            "score": 80,
-            "status": "passed"
-          }
-        ]
-      }
+      "cplScores": []
     },
     {
       "nim": "2211522018",
       "name": "Nabil Rizki Navisa",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
       "sksCompleted": 140,
+      "gpa": 2.86,
       "mandatoryCoursesCompleted": true,
       "mkwuCompleted": true,
       "internshipCompleted": true,
       "kknCompleted": true,
       "researchMethodCompleted": true,
-      "currentSemester": 7,
-      "currentSemesterCourses": [
+      "currentCourses": [
         {
           "code": "IF5001",
           "name": "Tugas Akhir",
-          "credits": 6,
-          "class": "A",
-          "lecturer": "Husnil Kamil, MT",
-          "schedule": [
-            {
-              "day": "Selasa",
-              "time": "08:00-10:40",
-              "room": "Lab Riset"
-            }
-          ],
-          "status": "ongoing",
-          "thesisTitle": "Pembangunan SIstem Informasi Monitoring Bimbingan Tugas Akhir di Departemen Sistem Informasi Universitas Andalas"
+          "credits": 6
         },
         {
           "code": "IF4011",
           "name": "Sistem Informasi Enterprise",
-          "credits": 3,
-          "class": "A",
-          "lecturer": "Dr. Ahmad Kadep",
-          "schedule": [
-            {
-              "day": "Senin",
-              "time": "13:00-14:40",
-              "room": "D102"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 3
         },
         {
           "code": "IF4015",
           "name": "Pengujian Perangkat Lunak",
-          "credits": 3,
-          "class": "C",
-          "lecturer": "Diana Penguji, M.Sc",
-          "schedule": [
-            {
-              "day": "Rabu",
-              "time": "08:00-09:40",
-              "room": "Lab QA"
-            }
-          ],
-          "status": "ongoing"
+          "credits": 3
         }
       ],
       "cplScores": [
         {
-          "code": "CPL-01",
-          "description": "Kemampuan untuk mengidentifikasi, memformulasikan dan memecahkan permasalahan kebutuhan informasi dari suatu organisasi",
+          "cplCode": "CPL-01",
+          "description": "Mengidentifikasi, memformulasikan, dan memecahkan permasalahan kebutuhan informasi organisasi",
           "score": 82,
           "inputAt": "2026-02-28T09:30:00.000Z"
         },
         {
-          "code": "CPL-02",
-          "description": "Kemampuan untuk mengintegrasikan solusi berbasis teknologi informasi secara efektif pada suatu organisasi",
+          "cplCode": "CPL-02",
+          "description": "Mengintegrasikan solusi berbasis teknologi informasi secara efektif pada organisasi",
           "score": 78,
           "inputAt": "2026-02-28T09:30:00.000Z"
         }
       ]
+    },
+    {
+      "nim": "2211528001",
+      "name": "Uji Proposal Layak",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 3.17,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528002",
+      "name": "Uji Proposal Tidak Layak",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 3.54,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528003",
+      "name": "Uji Proposal Menunggu Dosen",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 2.81,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528004",
+      "name": "Uji Proposal Lewat 72 Jam",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 3.18,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528005",
+      "name": "Uji Proposal Ditinjau",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 3.55,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528006",
+      "name": "Uji Proposal Atas Kuota",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 2.82,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528007",
+      "name": "Uji Proposal Jalur Departemen",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 3.19,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528008",
+      "name": "Uji Proposal Diterima",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 3.56,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528009",
+      "name": "Uji Proposal Batal",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 2.83,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528010",
+      "name": "Uji Proposal Ditetapkan",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 3.2,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528011",
+      "name": "Uji Proposal Final Terkirim",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 3.57,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528012",
+      "name": "Uji Proposal Lulus Presensi Kurang",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 2.84,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528013",
+      "name": "Uji Proposal Siap Dinilai",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 3.21,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528014",
+      "name": "Uji Proposal Dinilai Pembimbing",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 3.58,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528015",
+      "name": "Uji Proposal Lulus",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 2.85,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528016",
+      "name": "Uji Proposal Draf Pembimbing",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 3.22,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528017",
+      "name": "Uji Proposal Tidak Lulus",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 3.59,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": false,
+      "currentCourses": [
+        {
+          "code": "IF4001",
+          "name": "Metode Penelitian",
+          "credits": 3
+        }
+      ],
+      "cplScores": []
+    },
+    {
+      "nim": "2211528018",
+      "name": "Uji Proposal Masuk Penelitian",
+      "enrollmentYear": 2022,
+      "studentStatus": "aktif",
+      "currentSemester": 7,
+      "sksCompleted": 110,
+      "gpa": 2.86,
+      "mandatoryCoursesCompleted": false,
+      "mkwuCompleted": false,
+      "internshipCompleted": false,
+      "kknCompleted": false,
+      "researchMethodCompleted": true,
+      "currentCourses": [
+        {
+          "code": "IF5001",
+          "name": "Tugas Akhir",
+          "credits": 6
+        }
+      ],
+      "cplScores": []
     }
   ]
 }
