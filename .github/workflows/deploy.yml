@@ -4,20 +4,31 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      ref:
+        description: Commit, tag, or branch to deploy (empty = the selected branch)
+        type: string
+        default: ""
 
 permissions:
   contents: read
 
 concurrency:
-  group: neocentral-dev-dummy-sia
+  group: staging-dummy-sia
   cancel-in-progress: false
 
 jobs:
   verify:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      sha: ${{ steps.sha.outputs.sha }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.sha }}
+      - id: sha
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - uses: pnpm/action-setup@v4
         with:
           version: 10.23.0
@@ -27,18 +38,15 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: node --check src/index.js
-      - name: Verify health endpoint
+      - name: Health endpoint answers
         env:
           PORT: 4000
           API_TOKEN: ci-dummy-sia-token
         run: |
           node src/index.js > /tmp/dummy-sia.log 2>&1 &
-          APP_PID=$!
-          trap 'kill "$APP_PID" 2>/dev/null || true' EXIT
+          trap 'kill $! 2>/dev/null || true' EXIT
           for attempt in $(seq 1 15); do
-            if curl --fail --silent http://127.0.0.1:4000/health >/dev/null; then
-              exit 0
-            fi
+            curl --fail --silent http://127.0.0.1:4000/health >/dev/null && exit 0
             sleep 1
           done
           cat /tmp/dummy-sia.log
@@ -48,47 +56,42 @@ jobs:
     needs: verify
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    environment: neocentral-dev
+    environment: staging
     steps:
-      - uses: actions/checkout@v4
-
       - name: Configure SSH
         env:
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}
           SSH_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
         run: |
+          for name in SSH_PRIVATE_KEY SSH_KNOWN_HOSTS DEPLOY_HOST DEPLOY_PORT DEPLOY_USER; do
+            test -n "${!name}" || { echo "::error::$name is empty"; exit 1; }
+          done
           install -m 700 -d ~/.ssh
-          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
           printf '%s\n' "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          chmod 600 ~/.ssh/known_hosts
+          printf 'Host vps\n  HostName %s\n  Port %s\n  User %s\n  IdentityFile ~/.ssh/deploy_key\n  ServerAliveInterval 30\n' \
+            "$DEPLOY_HOST" "$DEPLOY_PORT" "$DEPLOY_USER" > ~/.ssh/config
+          chmod 600 ~/.ssh/deploy_key ~/.ssh/known_hosts ~/.ssh/config
 
-      - name: Upload application source
+      - name: Pull, build, and start on the server
         env:
-          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
-          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
-          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
           DEPLOY_DIR: ${{ vars.DEPLOY_DIR }}
+          DEPLOY_SHA: ${{ needs.verify.outputs.sha }}
         run: |
-          test -n "$DEPLOY_HOST" && test -n "$DEPLOY_PORT"
-          test -n "$DEPLOY_USER" && test -n "$DEPLOY_DIR"
-          rsync -az --delete             --exclude='.env'             --exclude='.git/'             --exclude='.deployed-sha'             --exclude='node_modules/'             -e "ssh -p $DEPLOY_PORT"             ./ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_DIR/"
-
-      - name: Build, deploy, and verify
-        env:
-          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
-          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
-          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
-          DEPLOY_DIR: ${{ vars.DEPLOY_DIR }}
-          DEPLOY_SHA: ${{ github.sha }}
-        run: |
-          ssh -p "$DEPLOY_PORT" "$DEPLOY_USER@$DEPLOY_HOST"             "DEPLOY_DIR='$DEPLOY_DIR' DEPLOY_SHA='$DEPLOY_SHA' bash -s" <<'REMOTE'
+          test -n "$DEPLOY_DIR" || { echo "::error::variable DEPLOY_DIR is empty"; exit 1; }
+          ssh vps "DEPLOY_DIR='$DEPLOY_DIR' DEPLOY_SHA='$DEPLOY_SHA' bash -s" <<'REMOTE'
           set -euo pipefail
           cd "$DEPLOY_DIR"
+          git fetch --quiet origin "$DEPLOY_SHA"
+          git checkout --quiet -f -B main "$DEPLOY_SHA"
           docker compose up -d --build dummy-sia
           for attempt in $(seq 1 30); do
-            if docker compose exec -T dummy-sia               wget -qO- http://127.0.0.1:4000/health >/dev/null; then
+            if docker compose exec -T dummy-sia wget -qO- http://127.0.0.1:4000/health >/dev/null 2>&1; then
               printf '%s\n' "$DEPLOY_SHA" > .deployed-sha
+              docker image prune -f >/dev/null
               docker compose ps
               exit 0
             fi

@@ -4,3 +4,6 @@ node_modules
 
 # Local TA snapshots written while testing (not part of the data set)
 data/TA snapshot/
+
+# Commit currently deployed on the server (written by CI)
+.deployed-sha
